@@ -1,5 +1,5 @@
 import HierarchyLayout from './HierarchyLayout';
-import {error, hasOwnProperty, inherits} from 'vega-util';
+import {error, hasOwnProperty, inherits} from 'falkonry-vega-util';
 import {cluster, tree} from 'd3-hierarchy';
 
 const Layouts = {

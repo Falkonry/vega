@@ -22,14 +22,14 @@ do
 
   echo "Creating $output"
 
-  printf "import { Spec } from 'vega';\n\n" > "$output"
+  printf "import { Spec } from 'falkonry-vega';\n\n" > "$output"
   printf "export const spec: Spec = " >> "$output"
   cat $file | perl -pe 'chomp if eof' >> "$output"
   printf ";\n" >> "$output"
 
   echo "Creating $outputDataflow"
 
-  printf "import { Runtime } from 'vega';\n\n" > "$outputDataflow"
+  printf "import { Runtime } from 'falkonry-vega';\n\n" > "$outputDataflow"
   printf "export const dataflow: Runtime = " >> "$outputDataflow"
   ./vega-to-dataflow.js "$file" "$outputDataflow"
 

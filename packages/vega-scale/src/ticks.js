@@ -1,7 +1,7 @@
 import {isLogarithmic} from './scales';
 import {Time, UTC} from './scales/types';
-import {timeInterval, utcInterval} from 'vega-time';
-import {error, isArray, isNumber, isObject, isString, peek, span} from 'vega-util';
+import {timeInterval, utcInterval} from 'falkonry-vega-time';
+import {error, isArray, isNumber, isObject, isString, peek, span} from 'falkonry-vega-util';
 
 const defaultFormatter = value => isArray(value)
   ? value.map(v => String(v))

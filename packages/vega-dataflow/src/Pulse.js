@@ -1,5 +1,5 @@
 import {tupleid} from './Tuple';
-import {isArray, visitArray} from 'vega-util';
+import {isArray, visitArray} from 'falkonry-vega-util';
 
 /**
  * Sentinel value indicating pulse propagation should stop.

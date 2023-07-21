@@ -1,7 +1,7 @@
 import {DiscreteLegend, SymbolLegend} from './legend-types';
 import {Log, Quantile, Quantize, Threshold, Time, UTC} from './scales/types';
 import {tickFormat, tickLog, tickValues} from './ticks';
-import {peek} from 'vega-util';
+import {peek} from 'falkonry-vega-util';
 
 const symbols = {
   [Quantile]:  'quantiles',

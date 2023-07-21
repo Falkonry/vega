@@ -1,5 +1,5 @@
 import {isOperator} from './util';
-import {error} from 'vega-util';
+import {error} from 'falkonry-vega-util';
 
 /**
  * Parse a dataflow operator.

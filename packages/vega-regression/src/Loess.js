@@ -1,7 +1,7 @@
 import partition from './partition';
-import {regressionLoess} from 'vega-statistics';
-import {Transform, ingest} from 'vega-dataflow';
-import {accessorName, inherits} from 'vega-util';
+import {regressionLoess} from 'falkonry-vega-statistics';
+import {Transform, ingest} from 'falkonry-vega-dataflow';
+import {accessorName, inherits} from 'falkonry-vega-util';
 
 /**
  * Compute locally-weighted regression fits for one or more data groups.

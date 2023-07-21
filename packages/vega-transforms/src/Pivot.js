@@ -1,6 +1,6 @@
 import Aggregate from './Aggregate';
 import {ValidAggregateOps} from './util/AggregateOps';
-import {accessor, accessorFields, ascending, inherits} from 'vega-util';
+import {accessor, accessorFields, ascending, inherits} from 'falkonry-vega-util';
 
 /**
  * Aggregate and pivot selected field values to become new fields.

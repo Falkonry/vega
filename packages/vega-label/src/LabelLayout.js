@@ -1,4 +1,4 @@
-import {textMetrics} from 'vega-scenegraph';
+import {textMetrics} from 'falkonry-vega-scenegraph';
 import {baseBitmaps, markBitmaps} from './util/markBitmaps';
 import scaler from './util/scaler';
 import placeAreaLabelNaive from './util/placeAreaLabel/placeNaive';

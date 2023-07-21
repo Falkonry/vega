@@ -1,4 +1,4 @@
-import {error, isArray, isObject, stringValue} from 'vega-util';
+import {error, isArray, isObject, stringValue} from 'falkonry-vega-util';
 
 export default function(proj, scope) {
   const config = scope.config.projection || {},

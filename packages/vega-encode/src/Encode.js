@@ -1,5 +1,5 @@
-import {Transform} from 'vega-dataflow';
-import {falsy, inherits, isArray} from 'vega-util';
+import {Transform} from 'falkonry-vega-dataflow';
+import {falsy, inherits, isArray} from 'falkonry-vega-util';
 
 /**
  * Invokes encoding functions for visual items.

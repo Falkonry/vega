@@ -1,5 +1,5 @@
 import Pulse from './Pulse';
-import {error, inherits, isArray} from 'vega-util';
+import {error, inherits, isArray} from 'falkonry-vega-util';
 
 /**
  * Represents a set of multiple pulses. Used as input for operators

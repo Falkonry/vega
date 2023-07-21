@@ -1,6 +1,6 @@
 import lookup from './lookup';
-import {Transform, ingest, isTuple, tupleid} from 'vega-dataflow';
-import {array, error, inherits} from 'vega-util';
+import {Transform, ingest, isTuple, tupleid} from 'falkonry-vega-dataflow';
+import {array, error, inherits} from 'falkonry-vega-util';
 import {hierarchy} from 'd3-hierarchy';
 
  /**

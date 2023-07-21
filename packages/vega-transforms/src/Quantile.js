@@ -1,7 +1,7 @@
 import {partition} from './util/util';
-import {Transform, ingest} from 'vega-dataflow';
-import {quantiles} from 'vega-statistics';
-import {accessorName, inherits} from 'vega-util';
+import {Transform, ingest} from 'falkonry-vega-dataflow';
+import {quantiles} from 'falkonry-vega-statistics';
+import {accessorName, inherits} from 'falkonry-vega-util';
 import {range} from 'd3-array';
 
 /**

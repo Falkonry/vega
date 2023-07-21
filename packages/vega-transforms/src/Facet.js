@@ -1,6 +1,6 @@
 import Subflow from './Subflow';
-import {Transform, tupleid} from 'vega-dataflow';
-import {fastmap, hasOwnProperty, inherits} from 'vega-util';
+import {Transform, tupleid} from 'falkonry-vega-dataflow';
+import {fastmap, hasOwnProperty, inherits} from 'falkonry-vega-util';
 
 /**
  * Facets a dataflow into a set of subflows based on a key.

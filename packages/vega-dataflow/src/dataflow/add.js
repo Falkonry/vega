@@ -1,5 +1,5 @@
 import Operator from '../Operator';
-import {isFunction} from 'vega-util';
+import {isFunction} from 'falkonry-vega-util';
 
 /**
  * Add an operator to the dataflow graph. This function accepts a

@@ -1,5 +1,5 @@
 {
-  "name": "vega-scale",
+  "name": "falkonry-vega-scale",
   "version": "7.3.0",
   "description": "Scales and color schemes for visual encoding.",
   "keywords": [
@@ -13,7 +13,7 @@
   "main": "build/vega-scale.js",
   "module": "build/vega-scale.module.js",
   "unpkg": "build/vega-scale.min.js",
-  "repository": "vega/vega",
+  "repository": "Falkonry/vega",
   "scripts": {
     "prebuild": "rimraf build",
     "build": "rollup -c rollup.config.mjs",
@@ -25,7 +25,7 @@
     "d3-array": "^3.2.2",
     "d3-interpolate": "^3.0.1",
     "d3-scale": "^4.0.2",
-    "vega-time": "^2.1.1",
-    "vega-util": "^1.17.1"
+    "falkonry-vega-time": "^2.1.1",
+    "falkonry-vega-util": "^1.17.1"
   }
 }

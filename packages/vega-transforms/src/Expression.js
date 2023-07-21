@@ -1,5 +1,5 @@
-import {Operator} from 'vega-dataflow';
-import {accessor, accessorFields, accessorName, inherits} from 'vega-util';
+import {Operator} from 'falkonry-vega-dataflow';
+import {accessor, accessorFields, accessorName, inherits} from 'falkonry-vega-util';
 
 /**
  * Wraps an expression function with access to external parameters.

@@ -1,6 +1,6 @@
 import eventExtend from './events-extend';
-import {EventStream} from 'vega-dataflow';
-import {array, extend, isArray, isObject, toSet} from 'vega-util';
+import {EventStream} from 'falkonry-vega-dataflow';
+import {array, extend, isArray, isObject, toSet} from 'falkonry-vega-util';
 
 const VIEW = 'view',
       TIMER = 'timer',

@@ -1,5 +1,5 @@
-import {Operator} from 'vega-dataflow';
-import {compare, inherits} from 'vega-util';
+import {Operator} from 'falkonry-vega-dataflow';
+import {compare, inherits} from 'falkonry-vega-util';
 
 /**
  * Generates a comparator function.

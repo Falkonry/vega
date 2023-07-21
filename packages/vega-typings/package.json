@@ -1,9 +1,9 @@
 {
-  "name": "vega-typings",
+  "name": "falkonry-vega-typings",
   "version": "0.24.1",
   "description": "Typings for Vega.",
   "types": "types",
-  "repository": "vega/vega",
+  "repository": "Falkonry/vega",
   "author": "Dominik Moritz <domoritz@gmail.com>",
   "keywords": [
     "vega",
@@ -20,9 +20,9 @@
   },
   "dependencies": {
     "@types/geojson": "7946.0.4",
-    "vega-event-selector": "^3.0.1",
-    "vega-expression": "^5.0.1",
-    "vega-util": "^1.17.1"
+    "falkonry-vega-event-selector": "^3.0.1",
+    "falkonry-vega-expression": "^5.0.1",
+    "falkonry-vega-util": "^1.17.1"
   },
   "devDependencies": {
     "ts-json-schema-generator": "^1.2.0"

@@ -1,4 +1,4 @@
-import {isString} from 'vega-util';
+import {isString} from 'falkonry-vega-util';
 
 const Default = 'default';
 

@@ -1,8 +1,8 @@
-import {Transform} from 'vega-dataflow';
+import {Transform} from 'falkonry-vega-dataflow';
 import {
   error, inherits, isArray, isFunction, isString, peek, stringValue,
   toSet, zoomLinear, zoomLog, zoomPow, zoomSymlog
-} from 'vega-util';
+} from 'falkonry-vega-util';
 
 import {
   Band,
@@ -33,7 +33,7 @@ import {
   quantizeInterpolator,
   scaleImplicit,
   tickCount
-} from 'vega-scale';
+} from 'falkonry-vega-scale';
 
 import {range as sequence} from 'd3-array';
 

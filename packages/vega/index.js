@@ -1,18 +1,18 @@
 // -- Transforms -----
 
-import {extend} from 'vega-util';
-import {transforms} from 'vega-dataflow';
-import * as tx from 'vega-transforms';
-import * as vtx from 'vega-view-transforms';
-import * as encode from 'vega-encode';
-import * as geo from 'vega-geo';
-import * as force from 'vega-force';
-import * as tree from 'vega-hierarchy';
-import * as label from 'vega-label';
-import * as reg from 'vega-regression';
-import * as voronoi from 'vega-voronoi';
-import * as wordcloud from 'vega-wordcloud';
-import * as xf from 'vega-crossfilter';
+import {extend} from 'falkonry-vega-util';
+import {transforms} from 'falkonry-vega-dataflow';
+import * as tx from 'falkonry-vega-transforms';
+import * as vtx from 'falkonry-vega-view-transforms';
+import * as encode from 'falkonry-vega-encode';
+import * as geo from 'falkonry-vega-geo';
+import * as force from 'falkonry-vega-force';
+import * as tree from 'falkonry-vega-hierarchy';
+import * as label from 'falkonry-vega-label';
+import * as reg from 'falkonry-vega-regression';
+import * as voronoi from 'falkonry-vega-voronoi';
+import * as wordcloud from 'falkonry-vega-wordcloud';
+import * as xf from 'falkonry-vega-crossfilter';
 extend(
   transforms,
   tx, vtx, encode, geo, force, label, tree, reg, voronoi, wordcloud, xf
@@ -23,15 +23,15 @@ extend(
 
 export {version} from './package.json';
 
-export * from 'vega-statistics';
+export * from 'falkonry-vega-statistics';
 
-export * from 'vega-time';
+export * from 'falkonry-vega-time';
 
-export * from 'vega-util';
+export * from 'falkonry-vega-util';
 
-export * from 'vega-loader';
+export * from 'falkonry-vega-loader';
 
-export * from 'vega-scenegraph';
+export * from 'falkonry-vega-scenegraph';
 
 export {
   Dataflow,
@@ -48,7 +48,7 @@ export {
   transform,
   transforms,
   tupleid
-} from 'vega-dataflow';
+} from 'falkonry-vega-dataflow';
 
 export {
   scale,
@@ -57,15 +57,15 @@ export {
   interpolateColors,
   interpolateRange,
   quantizeInterpolator
-} from 'vega-scale';
+} from 'falkonry-vega-scale';
 
 export {
   projection
-} from 'vega-projection';
+} from 'falkonry-vega-projection';
 
 export {
   View
-} from 'vega-view';
+} from 'falkonry-vega-view';
 
 export {
   numberFormatDefaultLocale as formatLocale,
@@ -73,25 +73,25 @@ export {
   locale,
   defaultLocale,
   resetDefaultLocale
-} from 'vega-format';
+} from 'falkonry-vega-format';
 
 export {
   expressionFunction
-} from 'vega-functions';
+} from 'falkonry-vega-functions';
 
 export {
   parse
-} from 'vega-parser';
+} from 'falkonry-vega-parser';
 
 export {
   context as runtimeContext
-} from 'vega-runtime';
+} from 'falkonry-vega-runtime';
 
 export {
   codegenExpression,
   parseExpression
-} from 'vega-expression';
+} from 'falkonry-vega-expression';
 
 export {
   parseSelector
-} from 'vega-event-selector';
+} from 'falkonry-vega-event-selector';

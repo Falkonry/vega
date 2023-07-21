@@ -1,6 +1,6 @@
 import labelLayout from './LabelLayout';
-import {Transform} from 'vega-dataflow';
-import {array, error, inherits, isFunction} from 'vega-util';
+import {Transform} from 'falkonry-vega-dataflow';
+import {array, error, inherits, isFunction} from 'falkonry-vega-util';
 
 const Output = [
   'x',

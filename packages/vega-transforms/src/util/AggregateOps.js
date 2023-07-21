@@ -1,4 +1,4 @@
-import {extend, identity} from 'vega-util';
+import {extend, identity} from 'falkonry-vega-util';
 
 export function measureName(op, field, as) {
   return as || (op + (!field ? '' : '_' + field));

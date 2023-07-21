@@ -1,5 +1,5 @@
 {
-  "name": "vega-hierarchy",
+  "name": "falkonry-vega-hierarchy",
   "version": "4.1.1",
   "description": "Hierarchical layout transforms for Vega dataflows.",
   "keywords": [
@@ -16,7 +16,7 @@
   "main": "build/vega-hierarchy.js",
   "module": "build/vega-hierarchy.module.js",
   "unpkg": "build/vega-hierarchy.min.js",
-  "repository": "vega/vega",
+  "repository": "Falkonry/vega",
   "scripts": {
     "prebuild": "rimraf build",
     "build": "rollup -c rollup.config.mjs",
@@ -26,10 +26,10 @@
   },
   "dependencies": {
     "d3-hierarchy": "^3.1.2",
-    "vega-dataflow": "^5.7.5",
-    "vega-util": "^1.17.1"
+    "falkonry-vega-dataflow": "^5.7.5",
+    "falkonry-vega-util": "^1.17.1"
   },
   "devDependencies": {
-    "vega-transforms": "*"
+    "falkonry-vega-transforms": "*"
   }
 }

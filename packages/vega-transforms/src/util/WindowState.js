@@ -1,7 +1,7 @@
 import {compileMeasures, createMeasure, measureName} from './AggregateOps';
 import TupleStore from './TupleStore';
 import {WindowOp, WindowOps} from './WindowOps';
-import {accessorFields, accessorName, array, error, hasOwnProperty} from 'vega-util';
+import {accessorFields, accessorName, array, error, hasOwnProperty} from 'falkonry-vega-util';
 
 export default function WindowState(_) {
   const ops = array(_.ops),

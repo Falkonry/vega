@@ -1,4 +1,4 @@
-import {extend, stringValue} from 'vega-util';
+import {extend, stringValue} from 'falkonry-vega-util';
 import {Bottom, Left, Right, Top} from './constants';
 import {encoder} from '../encode/util';
 import {isSignal} from '../../util';

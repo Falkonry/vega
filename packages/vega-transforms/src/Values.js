@@ -1,5 +1,5 @@
-import {Transform, stableCompare} from 'vega-dataflow';
-import {inherits} from 'vega-util';
+import {Transform, stableCompare} from 'falkonry-vega-dataflow';
+import {inherits} from 'falkonry-vega-util';
 
 /**
  * Extracts an array of values. Assumes the source data has already been

@@ -1,4 +1,4 @@
-import {projection} from 'vega-projection';
+import {projection} from 'falkonry-vega-projection';
 import {
   geoAiry,
   geoAitoff,

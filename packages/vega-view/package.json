@@ -1,5 +1,5 @@
 {
-  "name": "vega-view",
+  "name": "falkonry-vega-view",
   "version": "5.11.1",
   "description": "View component and transforms for Vega visualizations.",
   "keywords": [
@@ -12,7 +12,7 @@
   "main": "build/vega-view.js",
   "module": "build/vega-view.module.js",
   "unpkg": "build/vega-view.min.js",
-  "repository": "vega/vega",
+  "repository": "Falkonry/vega",
   "scripts": {
     "prebuild": "rimraf build",
     "build": "rollup -c rollup.config.mjs",
@@ -23,11 +23,11 @@
   "dependencies": {
     "d3-array": "^3.2.2",
     "d3-timer": "^3.0.1",
-    "vega-dataflow": "^5.7.5",
-    "vega-format": "^1.1.1",
-    "vega-functions": "^5.13.1",
-    "vega-runtime": "^6.1.4",
-    "vega-scenegraph": "^4.10.2",
-    "vega-util": "^1.17.1"
+    "falkonry-vega-dataflow": "^5.7.5",
+    "falkonry-vega-format": "^1.1.1",
+    "falkonry-vega-functions": "^5.13.1",
+    "falkonry-vega-runtime": "^6.1.4",
+    "falkonry-vega-scenegraph": "^4.10.2",
+    "falkonry-vega-util": "^1.17.1"
   }
 }

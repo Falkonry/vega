@@ -1,8 +1,8 @@
 import parseStream from './stream';
 import {Scope, View} from '../util';
-import {parseSelector} from 'vega-event-selector';
-import {parseExpression} from 'vega-functions';
-import {array, error, extend, isString, stringValue} from 'vega-util';
+import {parseSelector} from 'falkonry-vega-event-selector';
+import {parseExpression} from 'falkonry-vega-functions';
+import {array, error, extend, isString, stringValue} from 'falkonry-vega-util';
 
 // bypass expression parser for internal operator references
 const OP_VALUE_EXPR = {

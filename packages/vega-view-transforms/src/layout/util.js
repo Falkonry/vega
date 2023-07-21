@@ -1,4 +1,4 @@
-import {Bounds} from 'vega-scenegraph';
+import {Bounds} from 'falkonry-vega-scenegraph';
 
 export const tempBounds = new Bounds();
 

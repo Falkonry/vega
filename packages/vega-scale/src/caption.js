@@ -1,7 +1,7 @@
 import {labelFormat, labelValues} from './labels';
 import {Time, UTC} from './scales/types';
 import {isDiscrete, isDiscretizing, isTemporal} from './scales';
-import {isString, peek} from 'vega-util';
+import {isString, peek} from 'falkonry-vega-util';
 
 function format(locale, scale, specifier, formatType) {
   const type = formatType || scale.type;

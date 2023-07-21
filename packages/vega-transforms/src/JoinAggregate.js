@@ -1,6 +1,6 @@
 import Aggregate from './Aggregate';
 import {ValidAggregateOps} from './util/AggregateOps';
-import {extend, inherits} from 'vega-util';
+import {extend, inherits} from 'falkonry-vega-util';
 
 /**
  * Extend input tuples with aggregate values.

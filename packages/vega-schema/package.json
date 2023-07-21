@@ -1,5 +1,5 @@
 {
-  "name": "vega-schema",
+  "name": "falkonry-vega-schema",
   "version": "5.25.0",
   "description": "Generate the Vega JSON schema.",
   "keywords": [
@@ -11,7 +11,7 @@
   "author": "Jeffrey Heer (http://idl.cs.washington.edu)",
   "main": "build/vega-schema.js",
   "module": "build/vega-schema.module.js",
-  "repository": "vega/vega",
+  "repository": "Falkonry/vega",
   "scripts": {
     "prebuild": "rimraf build",
     "build": "rollup -c rollup.config.mjs --config-node",
@@ -20,9 +20,22 @@
     "prepublishOnly": "yarn test"
   },
   "dependencies": {
-    "vega-scale": "^7.3.0"
+    "falkonry-vega-scale": "^7.3.0"
   },
   "devDependencies": {
+    "falkonry-vega-crossfilter": "*",
+    "falkonry-vega-encode": "*",
+    "falkonry-vega-force": "*",
+    "falkonry-vega-geo": "*",
+    "falkonry-vega-hierarchy": "*",
+    "falkonry-vega-label": "*",
+    "falkonry-vega-regression": "*",
+    "falkonry-vega-transforms": "*",
+    "falkonry-vega-view-transforms": "*",
+    "falkonry-vega-voronoi": "*",
+    "falkonry-vega-wordcloud": "*"
+  },
+  "originalDevDependencies": {
     "vega-crossfilter": "*",
     "vega-encode": "*",
     "vega-force": "*",

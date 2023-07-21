@@ -1,7 +1,7 @@
 import {delimitedFormat, default as dsv} from './dsv';
 import json from './json';
 import topojson from './topojson';
-import {hasOwnProperty} from 'vega-util';
+import {hasOwnProperty} from 'falkonry-vega-util';
 
 export const format = {
   dsv: dsv,

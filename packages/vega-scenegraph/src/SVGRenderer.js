@@ -9,7 +9,7 @@ import {visit} from './util/visit';
 import clip from './util/svg/clip';
 import metadata from './util/svg/metadata';
 import {rootAttributes, stylesAttr, stylesCss} from './util/svg/styles';
-import {inherits, isArray} from 'vega-util';
+import {inherits, isArray} from 'falkonry-vega-util';
 
 const RootIndex = 0,
       xmlns = 'http://www.w3.org/2000/xmlns/',

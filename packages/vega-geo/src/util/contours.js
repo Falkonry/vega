@@ -1,4 +1,4 @@
-import {error} from 'vega-util';
+import {error} from 'falkonry-vega-util';
 
 function noop() {}
 

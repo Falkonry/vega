@@ -1,6 +1,6 @@
 import {domCreate} from './util/dom';
 import resolveItem from './util/resolveItem';
-import {loader} from 'vega-loader';
+import {loader} from 'falkonry-vega-loader';
 
 /**
  * Create a new Handler instance.

@@ -1,4 +1,4 @@
-import {isArray, isDate, isObject} from 'vega-util';
+import {isArray, isDate, isObject} from 'falkonry-vega-util';
 
 export default function(handler, event, item, value) {
   const el = handler.element();

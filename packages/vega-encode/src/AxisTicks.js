@@ -1,6 +1,6 @@
-import {Transform, ingest} from 'vega-dataflow';
-import {tickCount, tickFormat, tickValues, validTicks} from 'vega-scale';
-import {inherits} from 'vega-util';
+import {Transform, ingest} from 'falkonry-vega-dataflow';
+import {tickCount, tickFormat, tickValues, validTicks} from 'falkonry-vega-scale';
+import {inherits} from 'falkonry-vega-util';
 
 /**
  * Generates axis ticks for visualizing a spatial scale.

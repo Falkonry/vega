@@ -1,4 +1,4 @@
-import { array, toSet } from 'vega-util';
+import { array, toSet } from 'falkonry-vega-util';
 import invertRange from './scales/invertRange';
 import invertRangeExtent from './scales/invertRangeExtent';
 

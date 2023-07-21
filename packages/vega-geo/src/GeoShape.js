@@ -1,6 +1,6 @@
-import {Transform} from 'vega-dataflow';
-import {getProjectionPath} from 'vega-projection';
-import {field, inherits} from 'vega-util';
+import {Transform} from 'falkonry-vega-dataflow';
+import {getProjectionPath} from 'falkonry-vega-projection';
+import {field, inherits} from 'falkonry-vega-util';
 
 /**
  * Annotate items with a geopath shape generator.

@@ -1,5 +1,5 @@
 {
-  "name": "vega-time",
+  "name": "falkonry-vega-time",
   "version": "2.1.1",
   "description": "JavaScript date/time utilities for Vega.",
   "keywords": [
@@ -13,7 +13,7 @@
   "main": "build/vega-time.js",
   "module": "build/vega-time.module.js",
   "unpkg": "build/vega-time.min.js",
-  "repository": "vega/vega",
+  "repository": "Falkonry/vega",
   "scripts": {
     "prebuild": "rimraf build",
     "build": "rollup -c rollup.config.mjs",
@@ -24,6 +24,6 @@
   "dependencies": {
     "d3-array": "^3.2.2",
     "d3-time": "^3.1.0",
-    "vega-util": "^1.17.1"
+    "falkonry-vega-util": "^1.17.1"
   }
 }

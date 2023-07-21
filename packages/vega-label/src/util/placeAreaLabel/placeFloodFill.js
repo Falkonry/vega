@@ -1,4 +1,4 @@
-import {textMetrics} from 'vega-scenegraph';
+import {textMetrics} from 'falkonry-vega-scenegraph';
 import {collision, outOfBounds} from './common';
 
 // pixel direction offsets for flood fill search

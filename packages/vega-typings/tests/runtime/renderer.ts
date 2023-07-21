@@ -13,7 +13,7 @@ import {
   View,
   renderModule,
   sceneVisit
-} from 'vega';
+} from 'falkonry-vega';
 
 type SceneRenderer = (scene: Scene) => void;
 

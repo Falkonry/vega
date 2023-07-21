@@ -1,6 +1,6 @@
-import {tupleid} from 'vega-dataflow';
-import {bootstrapCI, quartiles} from 'vega-statistics';
-import {extentIndex, field, hasOwnProperty} from 'vega-util';
+import {tupleid} from 'falkonry-vega-dataflow';
+import {bootstrapCI, quartiles} from 'falkonry-vega-statistics';
+import {extentIndex, field, hasOwnProperty} from 'falkonry-vega-util';
 
 export default function TupleStore(key) {
   this._key = key ? field(key) : tupleid;

@@ -1,4 +1,4 @@
-import { Spec } from 'vega';
+import { Spec } from 'falkonry-vega';
 
 let spec: Spec;
 

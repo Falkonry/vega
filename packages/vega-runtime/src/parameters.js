@@ -1,8 +1,8 @@
-import {tupleid} from 'vega-dataflow';
+import {tupleid} from 'falkonry-vega-dataflow';
 import {
   accessor, array, compare, error, field,
   hasOwnProperty, isArray, isObject, key
-} from 'vega-util';
+} from 'falkonry-vega-util';
 
 /**
  * Parse a set of operator parameters.

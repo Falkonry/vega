@@ -1,5 +1,5 @@
 import {adjustSpatial} from './util';
-import {stringValue} from 'vega-util';
+import {stringValue} from 'falkonry-vega-util';
 
 function expression(ctx, args, code) {
   // wrap code in return statement if expression does not terminate

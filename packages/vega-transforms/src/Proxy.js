@@ -1,5 +1,5 @@
-import {Transform} from 'vega-dataflow';
-import {inherits} from 'vega-util';
+import {Transform} from 'falkonry-vega-dataflow';
+import {inherits} from 'falkonry-vega-util';
 
 /**
  * Proxy the value of another operator as a pure signal value.

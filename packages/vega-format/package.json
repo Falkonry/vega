@@ -1,5 +1,5 @@
 {
-  "name": "vega-format",
+  "name": "falkonry-vega-format",
   "version": "1.1.1",
   "description": "JavaScript string formatting utilities for Vega.",
   "keywords": [
@@ -14,7 +14,7 @@
   "main": "build/vega-format.js",
   "module": "build/vega-format.module.js",
   "unpkg": "build/vega-format.min.js",
-  "repository": "vega/vega",
+  "repository": "Falkonry/vega",
   "scripts": {
     "prebuild": "rimraf build",
     "build": "rollup -c rollup.config.mjs",
@@ -26,7 +26,7 @@
     "d3-array": "^3.2.2",
     "d3-format": "^3.1.0",
     "d3-time-format": "^4.1.0",
-    "vega-time": "^2.1.1",
-    "vega-util": "^1.17.1"
+    "falkonry-vega-time": "^2.1.1",
+    "falkonry-vega-util": "^1.17.1"
   }
 }

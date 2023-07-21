@@ -1,5 +1,5 @@
 {
-  "name": "vega-runtime",
+  "name": "falkonry-vega-runtime",
   "version": "6.1.4",
   "description": "Runtime support for Vega dataflows.",
   "keywords": [
@@ -13,7 +13,7 @@
   "main": "build/vega-runtime.js",
   "module": "build/vega-runtime.module.js",
   "unpkg": "build/vega-runtime.min.js",
-  "repository": "vega/vega",
+  "repository": "Falkonry/vega",
   "scripts": {
     "prebuild": "rimraf build",
     "build": "rollup -c rollup.config.mjs",
@@ -22,11 +22,11 @@
     "prepublishOnly": "yarn test && yarn build"
   },
   "dependencies": {
-    "vega-dataflow": "^5.7.5",
-    "vega-util": "^1.17.1"
+    "falkonry-vega-dataflow": "^5.7.5",
+    "falkonry-vega-util": "^1.17.1"
   },
   "devDependencies": {
-    "vega-encode": "*",
-    "vega-transforms": "*"
+    "falkonry-vega-encode": "*",
+    "falkonry-vega-transforms": "*"
   }
 }

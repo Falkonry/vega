@@ -8,7 +8,7 @@ import fill from '../util/canvas/fill';
 import {pick} from '../util/canvas/pick';
 import stroke from '../util/canvas/stroke';
 import {rotate, translate} from '../util/svg/transform';
-import {isArray} from 'vega-util';
+import {isArray} from 'falkonry-vega-util';
 
 const textAlign = {
   'left':   'start',

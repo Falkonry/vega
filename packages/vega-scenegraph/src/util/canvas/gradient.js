@@ -1,5 +1,5 @@
 import value from '../value';
-import {canvas} from 'vega-canvas';
+import {canvas} from 'falkonry-vega-canvas';
 
 function addStops(gradient, stops) {
   const n = stops.length;

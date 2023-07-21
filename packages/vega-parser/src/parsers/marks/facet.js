@@ -2,7 +2,7 @@ import {getDataRef} from './data';
 import DataScope from '../../DataScope';
 import {Collect, Facet, PreFacet, Sieve} from '../../transforms';
 import {ref} from '../../util';
-import {error, stringValue} from 'vega-util';
+import {error, stringValue} from 'falkonry-vega-util';
 
 export default function(spec, scope, group) {
   const facet = spec.from.facet,

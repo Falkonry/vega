@@ -1,4 +1,4 @@
-import {extend, hasOwnProperty, isArray, isObject} from 'vega-util';
+import {extend, hasOwnProperty, isArray, isObject} from 'falkonry-vega-util';
 
 export const encoder = _ => isObject(_) && !isArray(_)
   ? extend({}, _)

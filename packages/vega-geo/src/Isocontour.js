@@ -1,6 +1,6 @@
 import {max} from 'd3-array';
-import {Transform, ingest, rederive} from 'vega-dataflow';
-import {identity, inherits, isArray, isFunction, isNumber} from 'vega-util';
+import {Transform, ingest, rederive} from 'falkonry-vega-dataflow';
+import {identity, inherits, isArray, isFunction, isNumber} from 'falkonry-vega-util';
 import contours from './util/contours';
 import quantize from './util/quantize';
 

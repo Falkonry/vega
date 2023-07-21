@@ -1,5 +1,5 @@
 {
-  "name": "vega-expression",
+  "name": "falkonry-vega-expression",
   "version": "5.1.0",
   "description": "Vega expression parser and code generator.",
   "keywords": [
@@ -14,7 +14,7 @@
   "module": "build/vega-expression.module.js",
   "unpkg": "build/vega-expression.min.js",
   "types": "index.d.ts",
-  "repository": "vega/vega",
+  "repository": "Falkonry/vega",
   "scripts": {
     "prebuild": "rimraf build",
     "build": "rollup -c rollup.config.mjs",
@@ -23,7 +23,7 @@
     "prepublishOnly": "yarn test && yarn build"
   },
   "dependencies": {
-    "vega-util": "^1.17.1",
+    "falkonry-vega-util": "^1.17.1",
     "@types/estree": "^1.0.0"
   }
 }

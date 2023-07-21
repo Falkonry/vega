@@ -1,5 +1,5 @@
-import {Bounds, intersect} from 'vega-scenegraph';
-import {array} from 'vega-util';
+import {Bounds, intersect} from 'falkonry-vega-scenegraph';
+import {array} from 'falkonry-vega-util';
 
 export default function(b, opt, group) {
   if (!b) return [];

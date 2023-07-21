@@ -3,7 +3,7 @@ import blend from '../util/canvas/blend';
 import {pick} from '../util/canvas/pick';
 import metadata from '../util/svg/metadata';
 import {translate} from '../util/svg/transform';
-import {truthy} from 'vega-util';
+import {truthy} from 'falkonry-vega-util';
 
 function getImage(item, renderer) {
   var image = item.image;

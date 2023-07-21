@@ -4,9 +4,9 @@ import {
   randomMixture,
   randomNormal,
   randomUniform
-} from 'vega-statistics';
+} from 'falkonry-vega-statistics';
 
-import {error, hasOwnProperty} from 'vega-util';
+import {error, hasOwnProperty} from 'falkonry-vega-util';
 
 const Distributions = {
   kde:       randomKDE,

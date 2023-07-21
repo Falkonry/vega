@@ -1,5 +1,5 @@
-import {changeset, isChangeSet} from 'vega-dataflow';
-import {error, hasOwnProperty, truthy} from 'vega-util';
+import {changeset, isChangeSet} from 'falkonry-vega-dataflow';
+import {error, hasOwnProperty, truthy} from 'falkonry-vega-util';
 
 export function dataref(view, name) {
   var data = view._runtime.data;

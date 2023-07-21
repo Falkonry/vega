@@ -3,10 +3,10 @@ import {
 } from '../transforms';
 import {aggrField, keyFieldRef, ref} from '../util';
 
-import {isDiscrete, isQuantile, isValidScaleType} from 'vega-scale';
+import {isDiscrete, isQuantile, isValidScaleType} from 'falkonry-vega-scale';
 import {
   error, extend, hasOwnProperty, isArray, isObject, isString, stringValue
-} from 'vega-util';
+} from 'falkonry-vega-util';
 
 let FIELD_REF_ID = 0;
 

@@ -1,5 +1,5 @@
-import {Transform} from 'vega-dataflow';
-import {error, fastmap, inherits} from 'vega-util';
+import {Transform} from 'falkonry-vega-dataflow';
+import {error, fastmap, inherits} from 'falkonry-vega-util';
 
 const sourceX = t => t.source.x;
 const sourceY = t => t.source.y;

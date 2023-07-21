@@ -3,7 +3,7 @@ import {default as Pulse, StopPropagation} from '../Pulse';
 import MultiPulse from '../MultiPulse';
 import asyncCallback from '../util/asyncCallback';
 import UniqueList from '../util/UniqueList';
-import {id, isArray} from 'vega-util';
+import {id, isArray} from 'falkonry-vega-util';
 
 /**
  * Evaluates the dataflow and returns a Promise that resolves when pulse

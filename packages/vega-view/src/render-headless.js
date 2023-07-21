@@ -1,6 +1,6 @@
 import initializeRenderer from './initialize-renderer';
-import {renderModule} from 'vega-scenegraph';
-import {error} from 'vega-util';
+import {renderModule} from 'falkonry-vega-scenegraph';
+import {error} from 'falkonry-vega-util';
 
 /**
  * Render the current scene in a headless fashion.

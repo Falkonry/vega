@@ -1,4 +1,4 @@
-import {error, stringValue} from 'vega-util';
+import {error, stringValue} from 'falkonry-vega-util';
 
 const OUTER = 'outer',
       OUTER_INVALID = ['value', 'update', 'init', 'react', 'bind'];

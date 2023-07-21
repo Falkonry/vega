@@ -1,6 +1,6 @@
 import {
   field, identity, isArray, isFunction, isIterable, isObject
-} from 'vega-util';
+} from 'falkonry-vega-util';
 
 function isBuffer(_) {
   return (typeof Buffer === 'function' && isFunction(Buffer.isBuffer))

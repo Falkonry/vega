@@ -1,6 +1,6 @@
 import parseUpdate from './update';
-import {parseExpression} from 'vega-functions';
-import {error} from 'vega-util';
+import {parseExpression} from 'falkonry-vega-functions';
+import {error} from 'falkonry-vega-util';
 
 export default function(signal, scope) {
   const op = scope.getSignal(signal.name);

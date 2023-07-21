@@ -1,9 +1,9 @@
-import {Transform} from 'vega-dataflow';
+import {Transform} from 'falkonry-vega-dataflow';
 import {
   TIME_UNITS, timeBin, timeFloor, timeInterval, timeUnits,
   utcFloor, utcInterval
-} from 'vega-time';
-import {accessorFields, extent, inherits, peek} from 'vega-util';
+} from 'falkonry-vega-time';
+import {accessorFields, extent, inherits, peek} from 'falkonry-vega-util';
 
 /**
  * Discretize dates to specific time units.

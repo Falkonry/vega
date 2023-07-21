@@ -1,6 +1,6 @@
 import intersect from './intersect';
-import {Bounds} from 'vega-scenegraph';
-import {array} from 'vega-util';
+import {Bounds} from 'falkonry-vega-scenegraph';
+import {array} from 'falkonry-vega-util';
 
 /**
  * Appends a new point to the lasso

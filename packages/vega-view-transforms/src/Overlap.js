@@ -1,7 +1,7 @@
 import {Bottom, Top} from './constants';
-import {Transform} from 'vega-dataflow';
-import {Bounds} from 'vega-scenegraph';
-import {inherits, peek} from 'vega-util';
+import {Transform} from 'falkonry-vega-dataflow';
+import {Bounds} from 'falkonry-vega-scenegraph';
+import {inherits, peek} from 'falkonry-vega-util';
 
 /**
  * Analyze items for overlap, changing opacity to hide items with

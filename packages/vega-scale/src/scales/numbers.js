@@ -1,4 +1,4 @@
-import {toNumber} from 'vega-util';
+import {toNumber} from 'falkonry-vega-util';
 
 var map = Array.prototype.map;
 

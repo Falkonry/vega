@@ -1,5 +1,5 @@
 import entry from './entry';
-import {peek} from 'vega-util';
+import {peek} from 'falkonry-vega-util';
 
 export default function(enc) {
   let code = '';

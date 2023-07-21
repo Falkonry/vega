@@ -1,5 +1,5 @@
-import {isTuple} from 'vega-dataflow';
-import {isArray, isObject, truthy} from 'vega-util';
+import {isTuple} from 'falkonry-vega-dataflow';
+import {isArray, isObject, truthy} from 'falkonry-vega-util';
 
 function equal(a, b) {
   return a === b || a !== a && b !== b ? true

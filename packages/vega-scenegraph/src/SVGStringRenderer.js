@@ -9,7 +9,7 @@ import {visit} from './util/visit';
 import clip from './util/svg/clip';
 import metadata from './util/svg/metadata';
 import {rootAttributes, stylesAttr, stylesCss} from './util/svg/styles';
-import {extend, inherits, isArray} from 'vega-util';
+import {extend, inherits, isArray} from 'falkonry-vega-util';
 
 export default function SVGStringRenderer(loader) {
   Renderer.call(this, loader);

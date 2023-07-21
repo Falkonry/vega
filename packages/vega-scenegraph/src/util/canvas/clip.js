@@ -1,5 +1,5 @@
 import {hasCornerRadius, rectangle} from '../../path/shapes';
-import {isFunction} from 'vega-util';
+import {isFunction} from 'falkonry-vega-util';
 
 export default function(context, scene) {
   var clip = scene.clip;

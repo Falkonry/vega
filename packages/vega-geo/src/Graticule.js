@@ -1,5 +1,5 @@
-import {Transform, ingest, replace} from 'vega-dataflow';
-import {inherits, isFunction} from 'vega-util';
+import {Transform, ingest, replace} from 'falkonry-vega-dataflow';
+import {inherits, isFunction} from 'falkonry-vega-util';
 import {geoGraticule} from 'd3-geo';
 
 /**

@@ -1,5 +1,5 @@
 import UniqueList from './util/UniqueList';
-import {debounce, id, identity, truthy} from 'vega-util';
+import {debounce, id, identity, truthy} from 'falkonry-vega-util';
 
 let STREAM_ID = 0;
 

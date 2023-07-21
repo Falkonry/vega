@@ -1,5 +1,5 @@
-import {read, responseType} from 'vega-loader';
-import {truthy} from 'vega-util';
+import {read, responseType} from 'falkonry-vega-loader';
+import {truthy} from 'falkonry-vega-util';
 
 export function parse(data, format) {
   const locale = this.locale();

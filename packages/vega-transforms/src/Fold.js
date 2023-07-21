@@ -1,5 +1,5 @@
-import {Transform, derive} from 'vega-dataflow';
-import {accessorName, inherits} from 'vega-util';
+import {Transform, derive} from 'falkonry-vega-dataflow';
+import {accessorName, inherits} from 'falkonry-vega-util';
 
 /**
  * Folds one more tuple fields into multiple tuples in which the field

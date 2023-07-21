@@ -1,7 +1,7 @@
 import {Feature, FeatureCollection} from './constants';
-import {Transform} from 'vega-dataflow';
-import {projection, projectionProperties} from 'vega-projection';
-import {array, error, inherits, isFunction} from 'vega-util';
+import {Transform} from 'falkonry-vega-dataflow';
+import {projection, projectionProperties} from 'falkonry-vega-projection';
+import {array, error, inherits, isFunction} from 'falkonry-vega-util';
 
 /**
  * Maintains a cartographic projection.

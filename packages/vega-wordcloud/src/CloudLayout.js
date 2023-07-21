@@ -1,4 +1,4 @@
-import {canvas} from 'vega-canvas';
+import {canvas} from 'falkonry-vega-canvas';
 
 /*
 Copyright (c) 2013, Jason Davies.

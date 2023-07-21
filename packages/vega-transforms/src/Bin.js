@@ -1,6 +1,6 @@
-import {Transform} from 'vega-dataflow';
-import {bin} from 'vega-statistics';
-import {accessor, accessorFields, accessorName, inherits, toNumber} from 'vega-util';
+import {Transform} from 'falkonry-vega-dataflow';
+import {bin} from 'falkonry-vega-statistics';
+import {accessor, accessorFields, accessorName, inherits, toNumber} from 'falkonry-vega-util';
 
 // epsilon bias to offset floating point error (#1737)
 const EPSILON = 1e-14;

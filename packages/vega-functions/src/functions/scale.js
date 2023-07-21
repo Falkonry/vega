@@ -1,6 +1,6 @@
 import {getScale} from '../scales';
-import {bandSpace} from 'vega-scale';
-import {isArray} from 'vega-util';
+import {bandSpace} from 'falkonry-vega-scale';
+import {isArray} from 'falkonry-vega-util';
 
 export function bandspace(count, paddingInner, paddingOuter) {
   return bandSpace(count || 0, paddingInner || 0, paddingOuter || 0);

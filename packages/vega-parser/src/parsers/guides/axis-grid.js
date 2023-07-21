@@ -6,7 +6,7 @@ import {addEncoders} from '../encode/util';
 import {RuleMark} from '../marks/marktypes';
 import {AxisGridRole} from '../marks/roles';
 import {isSignal} from '../../util';
-import {extend, isObject} from 'vega-util';
+import {extend, isObject} from 'falkonry-vega-util';
 
 export default function(spec, config, userEncode, dataRef, band) {
   const _ = lookup(spec, config),

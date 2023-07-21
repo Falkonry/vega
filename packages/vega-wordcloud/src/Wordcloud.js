@@ -1,8 +1,8 @@
 import cloud from './CloudLayout';
-import {Transform} from 'vega-dataflow';
-import {constant, error, extent, inherits, isFunction} from 'vega-util';
-import {scale} from 'vega-scale';
-import {random} from 'vega-statistics';
+import {Transform} from 'falkonry-vega-dataflow';
+import {constant, error, extent, inherits, isFunction} from 'falkonry-vega-util';
+import {scale} from 'falkonry-vega-scale';
+import {random} from 'falkonry-vega-statistics';
 
 const Output = ['x', 'y', 'font', 'fontSize', 'fontStyle', 'fontWeight', 'angle'];
 
