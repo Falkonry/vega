@@ -1,5 +1,5 @@
 import pathParse from '../path/parse';
-import {isNumber, isObject} from 'vega-util';
+import {isNumber, isObject} from 'falkonry-vega-util';
 
 const TOLERANCE = 1e-9;
 

@@ -1,5 +1,5 @@
 import {ingest, tupleid} from './Tuple';
-import {array, constant, isFunction} from 'vega-util';
+import {array, constant, isFunction} from 'falkonry-vega-util';
 
 export function isChangeSet(v) {
   return v && v.constructor === changeset;

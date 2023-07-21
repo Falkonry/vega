@@ -8,7 +8,7 @@ import {
 } from './util/events';
 import point from './util/point';
 import {domFind} from './util/dom';
-import {inherits} from 'vega-util';
+import {inherits} from 'falkonry-vega-util';
 
 export default function CanvasHandler(loader, tooltip) {
   Handler.call(this, loader, tooltip);

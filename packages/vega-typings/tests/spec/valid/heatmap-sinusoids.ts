@@ -1,4 +1,4 @@
-import { Spec } from 'vega';
+import { Spec } from 'falkonry-vega';
 
 export const spec: Spec = {
   $schema: 'https://vega.github.io/schema/vega/v5.json',

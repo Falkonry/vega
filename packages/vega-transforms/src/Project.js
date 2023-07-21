@@ -1,6 +1,6 @@
 import {fieldNames} from './util/util';
-import {Transform, ingest, rederive, tupleid} from 'vega-dataflow';
-import {inherits} from 'vega-util';
+import {Transform, ingest, rederive, tupleid} from 'falkonry-vega-dataflow';
+import {inherits} from 'falkonry-vega-util';
 
 /**
  * Performs a relational projection, copying selected fields from source

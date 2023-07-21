@@ -1,7 +1,7 @@
 import {Group} from './constants';
-import {Transform} from 'vega-dataflow';
-import {GroupItem, Item} from 'vega-scenegraph';
-import {inherits} from 'vega-util';
+import {Transform} from 'falkonry-vega-dataflow';
+import {GroupItem, Item} from 'falkonry-vega-scenegraph';
+import {inherits} from 'falkonry-vega-util';
 
 /**
  * Bind scenegraph items to a scenegraph mark instance.

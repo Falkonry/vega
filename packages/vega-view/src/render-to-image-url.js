@@ -1,6 +1,6 @@
 import renderHeadless from './render-headless';
-import {RenderType as Type} from 'vega-scenegraph';
-import {error} from 'vega-util';
+import {RenderType as Type} from 'falkonry-vega-scenegraph';
+import {error} from 'falkonry-vega-util';
 
 /**
  * Produce an image URL for the visualization. Depending on the type

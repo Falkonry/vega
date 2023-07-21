@@ -3,7 +3,7 @@ import {
   None, Right, Start, Symbols, Top,
   TopLeft, TopRight
 } from '../constants';
-import {boundStroke, multiLineOffset} from 'vega-scenegraph';
+import {boundStroke, multiLineOffset} from 'falkonry-vega-scenegraph';
 
 // utility for looking up legend layout configuration
 function lookup(config, orient) {

@@ -1,5 +1,5 @@
 // collect transform definitions from devDependencies
-const defs = Object.keys(require('./package.json').devDependencies)
+const defs = Object.keys(require('./package.json').originalDevDependencies)
   .reduce((defs, pkg) => {
     const p = require(pkg);
     return defs.concat(

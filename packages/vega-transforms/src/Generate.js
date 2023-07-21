@@ -1,5 +1,5 @@
-import {Transform, ingest} from 'vega-dataflow';
-import {inherits} from 'vega-util';
+import {Transform, ingest} from 'falkonry-vega-dataflow';
+import {inherits} from 'falkonry-vega-util';
 
 /**
  * Generates data tuples using a provided generator function.

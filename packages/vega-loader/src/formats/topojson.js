@@ -1,6 +1,6 @@
 import json from './json';
 import {feature, mesh} from 'topojson-client';
-import {error} from 'vega-util';
+import {error} from 'falkonry-vega-util';
 
 const filters = {
   interior: (a, b) => a !== b,

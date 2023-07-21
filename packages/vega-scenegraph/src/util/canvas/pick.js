@@ -1,5 +1,5 @@
 import {pickVisit} from '../visit';
-import {truthy} from 'vega-util';
+import {truthy} from 'falkonry-vega-util';
 
 export function pick(test) {
   test = test || truthy;

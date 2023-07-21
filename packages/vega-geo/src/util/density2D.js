@@ -1,5 +1,5 @@
-import {bandwidthNRD} from 'vega-statistics';
-import {array, constant, error, isFunction, one} from 'vega-util';
+import {bandwidthNRD} from 'falkonry-vega-statistics';
+import {array, constant, error, isFunction, one} from 'falkonry-vega-util';
 import {sum} from 'd3-array';
 
 function radius(bw, data, f) {

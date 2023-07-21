@@ -1,7 +1,7 @@
 import parseTransform from '../transform';
 import {Collect} from '../../transforms';
 import {ref} from '../../util';
-import {array, error, extend} from 'vega-util';
+import {array, error, extend} from 'falkonry-vega-util';
 
 export default function(from, group, scope) {
   let facet, key, op, dataRef, parent;

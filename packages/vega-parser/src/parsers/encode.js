@@ -2,8 +2,8 @@ import applyDefaults from './encode/defaults';
 import entry from './encode/entry';
 import rule from './encode/rule';
 
-import {parseExpression} from 'vega-functions';
-import {extend, isArray} from 'vega-util';
+import {parseExpression} from 'falkonry-vega-functions';
+import {extend, isArray} from 'falkonry-vega-util';
 
 export default function(encode, type, role, style, scope, params) {
   const enc = {};

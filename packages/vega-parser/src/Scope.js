@@ -10,12 +10,12 @@ import {
 } from './util';
 
 import parseScope from './parsers/scope';
-import {parseExpression} from 'vega-functions';
+import {parseExpression} from 'falkonry-vega-functions';
 
 import {
   array, error, extend, hasOwnProperty,
   isArray, isObject, isString, peek, stringValue
-} from 'vega-util';
+} from 'falkonry-vega-util';
 
 export default function Scope(config, options) {
   this.config = config || {};

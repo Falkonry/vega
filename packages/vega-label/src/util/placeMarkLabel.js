@@ -1,4 +1,4 @@
-import {textMetrics} from 'vega-scenegraph';
+import {textMetrics} from 'falkonry-vega-scenegraph';
 
 const Aligns = ['right', 'center', 'left'],
       Baselines = ['bottom', 'middle', 'top'];

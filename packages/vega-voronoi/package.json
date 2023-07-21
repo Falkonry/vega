@@ -1,5 +1,5 @@
 {
-  "name": "vega-voronoi",
+  "name": "falkonry-vega-voronoi",
   "version": "4.2.1",
   "description": "Voronoi diagram transform for Vega dataflows.",
   "keywords": [
@@ -11,7 +11,7 @@
   "main": "build/vega-voronoi.js",
   "module": "build/vega-voronoi.module.js",
   "unpkg": "build/vega-voronoi.min.js",
-  "repository": "vega/vega",
+  "repository": "Falkonry/vega",
   "scripts": {
     "prebuild": "rimraf build",
     "build": "rollup -c rollup.config.mjs --config-transform",
@@ -21,10 +21,10 @@
   },
   "dependencies": {
     "d3-delaunay": "^6.0.2",
-    "vega-dataflow": "^5.7.5",
-    "vega-util": "^1.17.1"
+    "falkonry-vega-dataflow": "^5.7.5",
+    "falkonry-vega-util": "^1.17.1"
   },
   "devDependencies": {
-    "vega-transforms": "*"
+    "falkonry-vega-transforms": "*"
   }
 }

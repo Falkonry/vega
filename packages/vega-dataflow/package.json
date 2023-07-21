@@ -1,5 +1,5 @@
 {
-  "name": "vega-dataflow",
+  "name": "falkonry-vega-dataflow",
   "version": "5.7.5",
   "description": "Reactive dataflow processing.",
   "keywords": [
@@ -14,7 +14,7 @@
   "main": "build/vega-dataflow.js",
   "module": "build/vega-dataflow.module.js",
   "unpkg": "build/vega-dataflow.min.js",
-  "repository": "vega/vega",
+  "repository": "Falkonry/vega",
   "scripts": {
     "prebuild": "rimraf build",
     "build": "rollup -c rollup.config.mjs",
@@ -23,8 +23,8 @@
     "prepublishOnly": "yarn test && yarn build"
   },
   "dependencies": {
-    "vega-format": "^1.1.1",
-    "vega-loader": "^4.5.1",
-    "vega-util": "^1.17.1"
+    "falkonry-vega-format": "^1.1.1",
+    "falkonry-vega-loader": "^4.5.1",
+    "falkonry-vega-util": "^1.17.1"
   }
 }

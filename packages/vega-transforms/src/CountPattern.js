@@ -1,5 +1,5 @@
-import {Transform, ingest} from 'vega-dataflow';
-import {inherits} from 'vega-util';
+import {Transform, ingest} from 'falkonry-vega-dataflow';
+import {inherits} from 'falkonry-vega-util';
 
 /**
  * Count regexp-defined pattern occurrences in a text field.

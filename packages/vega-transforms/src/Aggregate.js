@@ -1,8 +1,8 @@
 import {groupkey} from './util/AggregateKeys';
 import {ValidAggregateOps, compileMeasures, createMeasure, measureName} from './util/AggregateOps';
 import TupleStore from './util/TupleStore';
-import {Transform, ingest, replace} from 'vega-dataflow';
-import {accessorFields, accessorName, array, error, inherits} from 'vega-util';
+import {Transform, ingest, replace} from 'falkonry-vega-dataflow';
+import {accessorFields, accessorName, array, error, inherits} from 'falkonry-vega-util';
 
 /**
  * Group-by aggregation operator.

@@ -3,7 +3,7 @@ import bind from './bind';
 import element from './element';
 import initializeRenderer from './initialize-renderer';
 import initializeHandler from './initialize-handler';
-import {CanvasHandler, renderModule} from 'vega-scenegraph';
+import {CanvasHandler, renderModule} from 'falkonry-vega-scenegraph';
 
 export default function(el, elBind) {
   const view = this,

@@ -1,6 +1,6 @@
-import {image} from 'vega-canvas';
-import {loader} from 'vega-loader';
-import {hasOwnProperty} from 'vega-util';
+import {image} from 'falkonry-vega-canvas';
+import {loader} from 'falkonry-vega-loader';
+import {hasOwnProperty} from 'falkonry-vega-util';
 
 export default function ResourceLoader(customLoader) {
   this._pending = 0;

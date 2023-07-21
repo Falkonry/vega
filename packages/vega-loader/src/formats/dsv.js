@@ -1,5 +1,5 @@
 import {dsvFormat} from 'd3-dsv';
-import {extend, stringValue} from 'vega-util';
+import {extend, stringValue} from 'falkonry-vega-util';
 
 export function delimitedFormat(delimiter) {
   const parse = function(data, format) {

@@ -7,7 +7,7 @@ import parseTitle from './title';
 import parseData from './data';
 import parseMark from './mark';
 import parseAxis from './axis';
-import {array} from 'vega-util';
+import {array} from 'falkonry-vega-util';
 
 export default function(spec, scope, preprocessed) {
   const signals = array(spec.signals),

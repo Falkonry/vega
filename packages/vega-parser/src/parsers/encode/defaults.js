@@ -1,6 +1,6 @@
 import {has} from './util';
 import {FrameRole, MarkRole} from '../marks/roles';
-import {array, extend} from 'vega-util';
+import {array, extend} from 'falkonry-vega-util';
 
 export default function(encode, type, role, style, config) {
   const defaults = {}, enter = {};

@@ -1,4 +1,4 @@
-import { Padding } from 'vega';
+import { Padding } from 'falkonry-vega';
 
 let padding: Padding;
 

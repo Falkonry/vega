@@ -1,5 +1,5 @@
 import {stream} from '../EventStream';
-import {array} from 'vega-util';
+import {array} from 'falkonry-vega-util';
 
 /**
  * Create a new event stream from an event source.

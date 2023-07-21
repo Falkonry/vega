@@ -8,7 +8,7 @@ import {TextMark} from './marks/marktypes';
 import {TitleRole, TitleSubtitleRole, TitleTextRole} from './marks/roles';
 import {Collect} from '../transforms';
 import {ref} from '../util';
-import {extend, isString} from 'vega-util';
+import {extend, isString} from 'falkonry-vega-util';
 
 const angleExpr = `item.orient==="${Left}"?-90:item.orient==="${Right}"?90:0`;
 

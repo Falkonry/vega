@@ -10,7 +10,7 @@ import {
   timeFormatLocale
 } from './time';
 
-import {error, extend} from 'vega-util';
+import {error, extend} from 'falkonry-vega-util';
 
 const createLocale = (number, time) => extend({}, number, time);
 

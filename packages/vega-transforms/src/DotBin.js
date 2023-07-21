@@ -1,7 +1,7 @@
 import {partition} from './util/util';
-import {Transform, stableCompare} from 'vega-dataflow';
-import {dotbin} from 'vega-statistics';
-import {extent, identity, inherits, span} from 'vega-util';
+import {Transform, stableCompare} from 'falkonry-vega-dataflow';
+import {dotbin} from 'falkonry-vega-statistics';
+import {extent, identity, inherits, span} from 'falkonry-vega-util';
 
 const Output = 'bin';
 

@@ -1,6 +1,6 @@
 import {fieldNames} from './util/util';
-import {Transform, derive} from 'vega-dataflow';
-import {inherits} from 'vega-util';
+import {Transform, derive} from 'falkonry-vega-dataflow';
+import {inherits} from 'falkonry-vega-util';
 
 /**
  * Flattens array-typed field values into new data objects.

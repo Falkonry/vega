@@ -1,5 +1,5 @@
 {
-  "name": "vega-projection",
+  "name": "falkonry-vega-projection",
   "version": "1.6.0",
   "description": "Projections for cartographic mapping.",
   "keywords": [
@@ -12,7 +12,7 @@
   "main": "build/vega-projection.js",
   "module": "build/vega-projection.module.js",
   "unpkg": "build/vega-projection.min.js",
-  "repository": "vega/vega",
+  "repository": "Falkonry/vega",
   "scripts": {
     "prebuild": "rimraf build",
     "build": "rollup -c rollup.config.mjs",
@@ -23,6 +23,6 @@
   "dependencies": {
     "d3-geo": "^3.1.0",
     "d3-geo-projection": "^4.0.0",
-    "vega-scale": "^7.3.0"
+    "falkonry-vega-scale": "^7.3.0"
   }
 }

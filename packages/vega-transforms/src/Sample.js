@@ -1,6 +1,6 @@
-import {Transform, tupleid} from 'vega-dataflow';
-import {random} from 'vega-statistics';
-import {inherits} from 'vega-util';
+import {Transform, tupleid} from 'falkonry-vega-dataflow';
+import {random} from 'falkonry-vega-statistics';
+import {inherits} from 'falkonry-vega-util';
 
 /**
  * Samples tuples passing through this operator.

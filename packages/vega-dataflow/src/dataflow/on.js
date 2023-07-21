@@ -1,6 +1,6 @@
 import Operator from '../Operator';
 import {isChangeSet} from '../ChangeSet';
-import {constant, extend, isFunction} from 'vega-util';
+import {constant, extend, isFunction} from 'falkonry-vega-util';
 
 const SKIP = {skip: true};
 

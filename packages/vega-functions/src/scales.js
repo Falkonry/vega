@@ -1,8 +1,8 @@
 import {ScalePrefix} from './constants';
 import {scaleVisitor} from './visitors';
-import {Literal} from 'vega-expression';
-import {isFunction, isString, stringValue} from 'vega-util';
-import {isRegisteredScale} from 'vega-scale';
+import {Literal} from 'falkonry-vega-expression';
+import {isFunction, isString, stringValue} from 'falkonry-vega-util';
+import {isRegisteredScale} from 'falkonry-vega-scale';
 
 export function getScale(nameOrFunction, ctx) {
 

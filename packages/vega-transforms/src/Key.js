@@ -1,5 +1,5 @@
-import {Operator} from 'vega-dataflow';
-import {inherits, key} from 'vega-util';
+import {Operator} from 'falkonry-vega-dataflow';
+import {inherits, key} from 'falkonry-vega-util';
 
 /**
  * Generates a key function.

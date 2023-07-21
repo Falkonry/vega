@@ -1,6 +1,6 @@
 import {Feature, FeatureCollection, MultiPoint} from './constants';
-import {Transform} from 'vega-dataflow';
-import {accessorFields, identity, inherits} from 'vega-util';
+import {Transform} from 'falkonry-vega-dataflow';
+import {accessorFields, identity, inherits} from 'falkonry-vega-util';
 
 /**
  * Consolidate an array of [longitude, latitude] points or GeoJSON features

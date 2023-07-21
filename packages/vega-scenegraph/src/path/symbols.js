@@ -1,7 +1,7 @@
 import pathParse from './parse';
 import pathRender from './render';
 import {HalfSqrt3, Tau} from '../util/constants';
-import {hasOwnProperty} from 'vega-util';
+import {hasOwnProperty} from 'falkonry-vega-util';
 
 const Tan30 = 0.5773502691896257;
 

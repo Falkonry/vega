@@ -1,4 +1,4 @@
-import {error, isObject} from 'vega-util';
+import {error, isObject} from 'falkonry-vega-util';
 
 /**
  * Parse an event-driven operator update.

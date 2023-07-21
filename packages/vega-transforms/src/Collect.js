@@ -1,6 +1,6 @@
 import SortedList from './util/SortedList';
-import {Transform, stableCompare, tupleid} from 'vega-dataflow';
-import {inherits} from 'vega-util';
+import {Transform, stableCompare, tupleid} from 'falkonry-vega-dataflow';
+import {inherits} from 'falkonry-vega-util';
 
 /**
  * Collects all data tuples that pass through this operator.

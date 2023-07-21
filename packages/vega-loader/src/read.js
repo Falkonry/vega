@@ -1,7 +1,7 @@
 import {inferTypes, typeParsers} from './type';
 import {formats} from './formats/index';
-import {timeFormatDefaultLocale} from 'vega-format';
-import {error, hasOwnProperty} from 'vega-util';
+import {timeFormatDefaultLocale} from 'falkonry-vega-format';
+import {error, hasOwnProperty} from 'falkonry-vega-util';
 
 export default function(data, schema, timeParser, utcParser) {
   schema = schema || {};

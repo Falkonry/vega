@@ -1,5 +1,5 @@
-import {Transform, stableCompare} from 'vega-dataflow';
-import {inherits} from 'vega-util';
+import {Transform, stableCompare} from 'falkonry-vega-dataflow';
+import {inherits} from 'falkonry-vega-util';
 
 /**
  * Sorts scenegraph items in the pulse source array.

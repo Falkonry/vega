@@ -1,6 +1,6 @@
 import Facet from './Facet';
-import {ingest, tupleid} from 'vega-dataflow';
-import {accessorFields, error, inherits} from 'vega-util';
+import {ingest, tupleid} from 'falkonry-vega-dataflow';
+import {accessorFields, error, inherits} from 'falkonry-vega-util';
 
 /**
  * Partitions pre-faceted data into tuple subflows.

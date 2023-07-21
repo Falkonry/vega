@@ -19,14 +19,14 @@ import timer from './timer';
 import defaultTooltip from './tooltip';
 import trap from './trap';
 
-import {Dataflow, asyncCallback} from 'vega-dataflow';
-import {locale} from 'vega-format';
+import {Dataflow, asyncCallback} from 'falkonry-vega-dataflow';
+import {locale} from 'falkonry-vega-format';
 import {
   CanvasHandler, RenderType, Scenegraph, renderModule
-} from 'vega-scenegraph';
+} from 'falkonry-vega-scenegraph';
 import {
   error, extend, hasOwnProperty, inherits, stringValue
-} from 'vega-util';
+} from 'falkonry-vega-util';
 
 /**
  * Create a new View instance from a Vega dataflow runtime specification.

@@ -1,5 +1,5 @@
 {
-  "name": "vega-canvas",
+  "name": "falkonry-vega-canvas",
   "version": "1.2.7",
   "description": "Canvas and Image utilities.",
   "keywords": [
@@ -13,7 +13,7 @@
   "module": "build/vega-canvas.node.module.js",
   "unpkg": "build/vega-canvas.min.js",
   "jsdelivr": "build/vega-canvas.min.js",
-  "repository": "vega/vega",
+  "repository": "Falkonry/vega",
   "browser": {
     "./build/vega-canvas.node.js": "./build/vega-canvas.browser.js",
     "./build/vega-canvas.node.module.js": "./build/vega-canvas.browser.module.js"

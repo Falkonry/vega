@@ -1,7 +1,7 @@
 import {AxisRole, Group, LegendRole, TitleRole} from './constants';
-import {Transform} from 'vega-dataflow';
-import {Marks, boundClip} from 'vega-scenegraph';
-import {inherits} from 'vega-util';
+import {Transform} from 'falkonry-vega-dataflow';
+import {Marks, boundClip} from 'falkonry-vega-scenegraph';
+import {inherits} from 'falkonry-vega-util';
 
 /**
  * Calculate bounding boxes for scenegraph items.

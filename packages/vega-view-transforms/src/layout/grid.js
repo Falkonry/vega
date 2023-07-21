@@ -5,8 +5,8 @@ import {
   TitleRole, X, Y
 } from '../constants';
 import {tempBounds} from './util';
-import {Bounds} from 'vega-scenegraph';
-import {isObject} from 'vega-util';
+import {Bounds} from 'falkonry-vega-scenegraph';
+import {isObject} from 'falkonry-vega-util';
 
 // aggregation functions for grid margin determination
 const min = (a, b) => Math.floor(Math.min(a, b));

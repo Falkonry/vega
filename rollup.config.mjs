@@ -69,7 +69,9 @@ export default function(commandLineArgs) {
 
   const dependencies = Object.keys(pkg.dependencies || {});
   const coreExternal = d3CoreDeps;
-  const vgDependencies = bundle ? [] : dependencies.filter(dep => dep.startsWith('vega-'));
+  console.log('====================');
+  console.log(dependencies);
+  const vgDependencies = bundle ? [] : dependencies.filter(dep => (dep.startsWith('falkonry-vega-') || dep.startsWith('vega-')));
 
   const name = commandLineArgs['config-transform'] ? 'vega.transforms' : 'vega';
 
@@ -77,6 +79,8 @@ export default function(commandLineArgs) {
   for (const dep of [...dependencies, ...d3CoreDeps]) {
     if (dep.startsWith('d3')) {
       globals[dep] = 'd3';
+    } else if (dep.startsWith('fakonry-vega-')) {
+      globals[dep] = 'vega';
     } else if (dep.startsWith('vega-')) {
       globals[dep] = 'vega';
     } else if (dep.startsWith('topojson-')) {

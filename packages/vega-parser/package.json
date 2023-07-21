@@ -1,5 +1,5 @@
 {
-  "name": "vega-parser",
+  "name": "falkonry-vega-parser",
   "version": "6.2.0",
   "description": "Parse Vega specifications to runtime dataflows.",
   "keywords": [
@@ -13,7 +13,7 @@
   "main": "build/vega-parser.js",
   "module": "build/vega-parser.module.js",
   "unpkg": "build/vega-parser.min.js",
-  "repository": "vega/vega",
+  "repository": "Falkonry/vega",
   "scripts": {
     "prebuild": "rimraf build",
     "build": "rollup -c rollup.config.mjs",
@@ -22,10 +22,10 @@
     "prepublishOnly": "yarn test && yarn build"
   },
   "dependencies": {
-    "vega-dataflow": "^5.7.5",
-    "vega-event-selector": "^3.0.1",
-    "vega-functions": "^5.13.1",
-    "vega-scale": "^7.3.0",
-    "vega-util": "^1.17.1"
+    "falkonry-vega-dataflow": "^5.7.5",
+    "falkonry-vega-event-selector": "^3.0.1",
+    "falkonry-vega-functions": "^5.13.1",
+    "falkonry-vega-scale": "^7.3.0",
+    "falkonry-vega-util": "^1.17.1"
   }
 }

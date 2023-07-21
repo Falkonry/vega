@@ -1,8 +1,8 @@
-import {Transform} from 'vega-dataflow';
+import {Transform} from 'falkonry-vega-dataflow';
 import {
   accessorFields, array, error, hasOwnProperty,
   inherits, isFunction
-} from 'vega-util';
+} from 'falkonry-vega-util';
 import {
   forceCenter, forceCollide, forceLink,
   forceManyBody, forceSimulation, forceX, forceY

@@ -5,8 +5,8 @@ import marks from './marks/index';
 import {domClear} from './util/dom';
 import clip from './util/canvas/clip';
 import resize from './util/canvas/resize';
-import {canvas} from 'vega-canvas';
-import {error, inherits} from 'vega-util';
+import {canvas} from 'falkonry-vega-canvas';
+import {error, inherits} from 'falkonry-vega-util';
 
 export default function CanvasRenderer(loader) {
   Renderer.call(this, loader);

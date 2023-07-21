@@ -1,7 +1,7 @@
 import {codeGenerator, codegenParams} from './codegen';
 import {SignalPrefix} from './constants';
-import {CallExpression, parseExpression} from 'vega-expression';
-import {error, extend, hasOwnProperty, isString, stringValue} from 'vega-util';
+import {CallExpression, parseExpression} from 'falkonry-vega-expression';
+import {error, extend, hasOwnProperty, isString, stringValue} from 'falkonry-vega-util';
 
 export default function(expr, scope) {
   const params = {};

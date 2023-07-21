@@ -1,5 +1,5 @@
 import renderHeadless from './render-headless';
-import {RenderType} from 'vega-scenegraph';
+import {RenderType} from 'falkonry-vega-scenegraph';
 
 /**
  * Produce a Canvas instance containing a rendered visualization.

@@ -1,7 +1,7 @@
 import parseView from './parsers/view';
 import Scope from './Scope';
 import defaults from './config';
-import {error, isObject, mergeConfig} from 'vega-util';
+import {error, isObject, mergeConfig} from 'falkonry-vega-util';
 
 export default function(spec, config, options) {
   if (!isObject(spec)) {

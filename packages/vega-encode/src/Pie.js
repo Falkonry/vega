@@ -1,5 +1,5 @@
-import {Transform} from 'vega-dataflow';
-import {inherits, one} from 'vega-util';
+import {Transform} from 'falkonry-vega-dataflow';
+import {inherits, one} from 'falkonry-vega-util';
 import {range, sum} from 'd3-array';
 
 /**

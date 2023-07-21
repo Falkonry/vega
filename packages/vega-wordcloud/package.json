@@ -1,5 +1,5 @@
 {
-  "name": "vega-wordcloud",
+  "name": "falkonry-vega-wordcloud",
   "version": "4.1.4",
   "description": "Wordcloud layout transform for Vega dataflows.",
   "keywords": [
@@ -12,7 +12,7 @@
   "main": "build/vega-wordcloud.js",
   "module": "build/vega-wordcloud.module.js",
   "unpkg": "build/vega-wordcloud.min.js",
-  "repository": "vega/vega",
+  "repository": "Falkonry/vega",
   "scripts": {
     "prebuild": "rimraf build",
     "build": "rollup -c rollup.config.mjs --config-transform",
@@ -21,13 +21,13 @@
     "prepublishOnly": "yarn test && yarn build"
   },
   "dependencies": {
-    "vega-canvas": "^1.2.7",
-    "vega-dataflow": "^5.7.5",
-    "vega-scale": "^7.3.0",
-    "vega-statistics": "^1.8.1",
-    "vega-util": "^1.17.1"
+    "falkonry-vega-canvas": "^1.2.7",
+    "falkonry-vega-dataflow": "^5.7.5",
+    "falkonry-vega-scale": "^7.3.0",
+    "falkonry-vega-statistics": "^1.8.1",
+    "falkonry-vega-util": "^1.17.1"
   },
   "devDependencies": {
-    "vega-transforms": "*"
+    "falkonry-vega-transforms": "*"
   }
 }

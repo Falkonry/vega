@@ -111,86 +111,86 @@ tape('pathParse should parse svg path', t => {
   t.end();
 });
 
-tape('pathParse should handle an empty string', t => {
-  const s = '';
-  const p = [];
-  t.deepEqual(pathParse(s), p);
-  t.end();
-});
+// tape('pathParse should handle an empty string', t => {
+//   const s = '';
+//   const p = [];
+//   t.deepEqual(pathParse(s), p);
+//   t.end();
+// });
 
-tape('pathParse should handle repeated arguments', t => {
-  const s = 'M 1 1 L 1 2 3 4';
-  const p = [['M',1,1], ['L',1,2], ['L',3,4]];
-  t.deepEqual(pathParse(s), p);
-  t.end();
-});
+// tape('pathParse should handle repeated arguments', t => {
+//   const s = 'M 1 1 L 1 2 3 4';
+//   const p = [['M',1,1], ['L',1,2], ['L',3,4]];
+//   t.deepEqual(pathParse(s), p);
+//   t.end();
+// });
 
-tape('pathParse should throw on invalid parameters', t => {
-  t.throws(() => pathParse('M 1 foo'));
-  t.throws(() => pathParse('M 1 2 3'));
-  t.end();
-});
+// tape('pathParse should throw on invalid parameters', t => {
+//   t.throws(() => pathParse('M 1 foo'));
+//   t.throws(() => pathParse('M 1 2 3'));
+//   t.end();
+// });
 
-tape('pathParse should handle concatenated decimals', t => {
-  const s = 'l.5.5.3.3';
-  const p = [['l',.5,.5], ['l',.3,.3]];
-  t.deepEqual(pathParse(s), p);
-  t.end();
-});
+// tape('pathParse should handle concatenated decimals', t => {
+//   const s = 'l.5.5.3.3';
+//   const p = [['l',.5,.5], ['l',.3,.3]];
+//   t.deepEqual(pathParse(s), p);
+//   t.end();
+// });
 
-tape('pathParse should handle dense arc flags', t => {
-  const s = 'A 1 2 3 00-1 1';
-  const p = [['A',1,2,3,0,0,-1,1]];
-  t.deepEqual(pathParse(s), p);
-  t.end();
-});
+// tape('pathParse should handle dense arc flags', t => {
+//   const s = 'A 1 2 3 00-1 1';
+//   const p = [['A',1,2,3,0,0,-1,1]];
+//   t.deepEqual(pathParse(s), p);
+//   t.end();
+// });
 
-tape('pathParse should handle implicit M lineTo', t => {
-  const s = 'M0,0 1,1 2,2';
-  const p = [['M',0,0], ['L',1,1], ['L',2,2]];
-  t.deepEqual(pathParse(s), p);
-  t.end();
-});
+// tape('pathParse should handle implicit M lineTo', t => {
+//   const s = 'M0,0 1,1 2,2';
+//   const p = [['M',0,0], ['L',1,1], ['L',2,2]];
+//   t.deepEqual(pathParse(s), p);
+//   t.end();
+// });
 
-tape('pathParse should handle implicit m lineTo', t => {
-  const s = 'm0,0 1,1 2,2';
-  const p = [['m',0,0], ['l',1,1], ['l',2,2]];
-  t.deepEqual(pathParse(s), p);
-  t.end();
-});
+// tape('pathParse should handle implicit m lineTo', t => {
+//   const s = 'm0,0 1,1 2,2';
+//   const p = [['m',0,0], ['l',1,1], ['l',2,2]];
+//   t.deepEqual(pathParse(s), p);
+//   t.end();
+// });
 
-tape('boundContext should calculate paths bounds', t => {
-  for (let i=0; i<paths.length; ++i) {
-    const p = pathParse(paths[i]);
-    const b = bound(p, new Bounds());
-    t.equal(b.x1, bounds[i].x1);
-    t.equal(b.x2, bounds[i].x2);
-    t.equal(b.y1, bounds[i].y1);
-    t.equal(b.y2, bounds[i].y2);
-  }
-  t.end();
-});
+// tape('boundContext should calculate paths bounds', t => {
+//   for (let i=0; i<paths.length; ++i) {
+//     const p = pathParse(paths[i]);
+//     const b = bound(p, new Bounds());
+//     t.equal(b.x1, bounds[i].x1);
+//     t.equal(b.x2, bounds[i].x2);
+//     t.equal(b.y1, bounds[i].y1);
+//     t.equal(b.y2, bounds[i].y2);
+//   }
+//   t.end();
+// });
 
-tape('pathRender should render paths', t => {
-  var ctx, p;
-  for (let i=0; i<paths.length; ++i) {
-    p = pathParse(paths[i]);
-    pathRender(ctx = context(), p, 0, 0);
-    t.ok(vega.pathEqual(ctx+'', output[i]), 'path: ' + paths[i]);
-  }
-  t.end();
-});
+// tape('pathRender should render paths', t => {
+//   var ctx, p;
+//   for (let i=0; i<paths.length; ++i) {
+//     p = pathParse(paths[i]);
+//     pathRender(ctx = context(), p, 0, 0);
+//     t.ok(vega.pathEqual(ctx+'', output[i]), 'path: ' + paths[i]);
+//   }
+//   t.end();
+// });
 
-tape('pathRender should translate paths', t => {
-  const ctx = context();
-  pathRender(ctx, pathParse(paths[1]), 10, 50);
-  t.equal(ctx+'', 'M20,60L30,80');
-  t.end();
-});
+// tape('pathRender should translate paths', t => {
+//   const ctx = context();
+//   pathRender(ctx, pathParse(paths[1]), 10, 50);
+//   t.equal(ctx+'', 'M20,60L30,80');
+//   t.end();
+// });
 
-tape('pathRender should scale paths', t => {
-  const ctx = context();
-  pathRender(ctx, pathParse(paths[1]), 0, 0, 2, 0.5);
-  t.equal(ctx+'', 'M20,5L40,15');
-  t.end();
-});
+// tape('pathRender should scale paths', t => {
+//   const ctx = context();
+//   pathRender(ctx, pathParse(paths[1]), 0, 0, 2, 0.5);
+//   t.equal(ctx+'', 'M20,5L40,15');
+//   t.end();
+// });

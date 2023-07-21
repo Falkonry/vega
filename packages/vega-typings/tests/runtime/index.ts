@@ -1,4 +1,4 @@
-import * as vega from 'vega';
+import * as vega from 'falkonry-vega';
 
 import { spec as histogram } from '../spec/valid/histogram';
 

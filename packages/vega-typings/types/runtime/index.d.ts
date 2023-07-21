@@ -1,4 +1,4 @@
-import { LoggerInterface } from 'vega-util';
+import { LoggerInterface } from 'falkonry-vega-util';
 import {
   Color,
   Config,
@@ -251,9 +251,9 @@ export function expressionFunction(name: string, fn?: any, visitor?: any): any;
 
 export const transforms: { [name: string]: Transform };
 
-export { parseSelector } from 'vega-event-selector';
-export { codegenExpression, parseExpression } from 'vega-expression';
-export * from 'vega-util';
+export { parseSelector } from 'falkonry-vega-event-selector';
+export { codegenExpression, parseExpression } from 'falkonry-vega-expression';
+export * from 'falkonry-vega-util';
 export * from './dataflow';
 export * from './renderer';
 export * from './scene';

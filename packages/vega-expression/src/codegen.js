@@ -1,6 +1,6 @@
 import Constants from './constants';
 import Functions from './functions';
-import {error, hasOwnProperty, isFunction, isString, toSet} from 'vega-util';
+import {error, hasOwnProperty, isFunction, isString, toSet} from 'falkonry-vega-util';
 
 function stripQuotes(s) {
   const n = s && s.length - 1;

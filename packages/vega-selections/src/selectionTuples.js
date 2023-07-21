@@ -1,4 +1,4 @@
-import {extend} from 'vega-util';
+import {extend} from 'falkonry-vega-util';
 import {$selectionId, SelectionId, getter} from './util';
 
 /**

@@ -16,9 +16,9 @@ import {LegendEntryRole, LegendRole} from './marks/roles';
 import {deref, ref} from '../util';
 import {Collect, LegendEntries} from '../transforms';
 
-import {parseExpression} from 'vega-functions';
-import {isContinuous, isDiscretizing} from 'vega-scale';
-import {error} from 'vega-util';
+import {parseExpression} from 'falkonry-vega-functions';
+import {isContinuous, isDiscretizing} from 'falkonry-vega-scale';
+import {error} from 'falkonry-vega-util';
 
 export default function(spec, scope) {
   const config = scope.config.legend,

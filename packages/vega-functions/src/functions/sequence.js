@@ -1,4 +1,4 @@
-import {error, isArray, isFunction, isString} from 'vega-util';
+import {error, isArray, isFunction, isString} from 'falkonry-vega-util';
 
 function array(seq) {
   return isArray(seq) || ArrayBuffer.isView(seq) ? seq : null;

@@ -1,7 +1,7 @@
 import Handler from './Handler';
 import {domFind} from './util/dom';
 import {HrefEvent, TooltipHideEvent, TooltipShowEvent} from './util/events';
-import {inherits} from 'vega-util';
+import {inherits} from 'falkonry-vega-util';
 
 export default function SVGHandler(loader, tooltip) {
   Handler.call(this, loader, tooltip);

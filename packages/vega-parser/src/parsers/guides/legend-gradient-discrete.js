@@ -4,7 +4,7 @@ import {lookup} from './guide-util';
 import {addEncoders, encoder} from '../encode/util';
 import {RectMark} from '../marks/marktypes';
 import {LegendBandRole} from '../marks/roles';
-import {extend} from 'vega-util';
+import {extend} from 'falkonry-vega-util';
 
 export default function(spec, scale, config, userEncode, dataRef) {
   const _ = lookup(spec, config),

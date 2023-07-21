@@ -1,5 +1,5 @@
-import {Transform, stableCompare} from 'vega-dataflow';
-import {inherits, one} from 'vega-util';
+import {Transform, stableCompare} from 'falkonry-vega-dataflow';
+import {inherits, one} from 'falkonry-vega-util';
 
 const Zero = 'zero',
       Center = 'center',

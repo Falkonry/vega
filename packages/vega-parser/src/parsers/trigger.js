@@ -1,5 +1,5 @@
 import {operator} from '../util';
-import {parseExpression} from 'vega-functions';
+import {parseExpression} from 'falkonry-vega-functions';
 
 export default function(spec, scope, name) {
   const remove = spec.remove,

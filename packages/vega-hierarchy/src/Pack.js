@@ -1,5 +1,5 @@
 import HierarchyLayout from './HierarchyLayout';
-import {inherits} from 'vega-util';
+import {inherits} from 'falkonry-vega-util';
 import {pack} from 'd3-hierarchy';
 
 const Output = ['x', 'y', 'r', 'depth', 'children'];

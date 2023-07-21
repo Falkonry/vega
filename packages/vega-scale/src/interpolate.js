@@ -1,5 +1,5 @@
 import {scale as getScale} from './scales';
-import {constant, peek} from 'vega-util';
+import {constant, peek} from 'falkonry-vega-util';
 import * as $ from 'd3-interpolate';
 
 const scaleProps = ['clamp', 'base', 'constant', 'exponent'];

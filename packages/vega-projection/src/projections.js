@@ -24,7 +24,7 @@ import {
 
 import {
   registerScale
-} from 'vega-scale';
+} from 'falkonry-vega-scale';
 
 const defaultPath = geoPath();
 

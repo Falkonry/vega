@@ -1,6 +1,6 @@
 import {DataPrefix, IndexPrefix, ScalePrefix} from './constants';
-import {Literal} from 'vega-expression';
-import {error, hasOwnProperty} from 'vega-util';
+import {Literal} from 'falkonry-vega-expression';
+import {error, hasOwnProperty} from 'falkonry-vega-util';
 
 export function dataVisitor(name, args, scope, params) {
   if (args[0].type !== Literal) {

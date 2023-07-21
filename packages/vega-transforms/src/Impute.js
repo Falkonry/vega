@@ -1,5 +1,5 @@
-import {Transform, ingest} from 'vega-dataflow';
-import {accessorName, error, inherits} from 'vega-util';
+import {Transform, ingest} from 'falkonry-vega-dataflow';
+import {accessorName, error, inherits} from 'falkonry-vega-util';
 import {max, mean, median, min} from 'd3-array';
 
 const Methods = {

@@ -1,5 +1,5 @@
 {
-  "name": "vega-label",
+  "name": "falkonry-vega-label",
   "version": "1.2.1",
   "description": "Label layout transform for Vega dataflows.",
   "keywords": [
@@ -15,7 +15,7 @@
   "main": "build/vega-label.js",
   "module": "build/vega-label.module.js",
   "unpkg": "build/vega-label.min.js",
-  "repository": "vega/vega",
+  "repository": "Falkonry/vega",
   "scripts": {
     "prebuild": "rimraf build",
     "build": "rollup -c rollup.config.mjs --config-transform",
@@ -24,12 +24,12 @@
     "prepublishOnly": "yarn test && yarn build"
   },
   "dependencies": {
-    "vega-canvas": "^1.2.6",
-    "vega-dataflow": "^5.7.3",
-    "vega-scenegraph": "^4.9.2",
-    "vega-util": "^1.15.2"
+    "falkonry-vega-canvas": "^1.2.6",
+    "falkonry-vega-dataflow": "^5.7.3",
+    "falkonry-vega-scenegraph": "^4.9.2",
+    "falkonry-vega-util": "^1.15.2"
   },
   "devDependencies": {
-    "vega-transforms": "*"
+    "falkonry-vega-transforms": "*"
   }
 }

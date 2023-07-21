@@ -1,6 +1,6 @@
-import {Transform} from 'vega-dataflow';
-import {getProjectionPath} from 'vega-projection';
-import {identity, inherits} from 'vega-util';
+import {Transform} from 'falkonry-vega-dataflow';
+import {getProjectionPath} from 'falkonry-vega-projection';
+import {identity, inherits} from 'falkonry-vega-util';
 
 /**
  * Map GeoJSON data to an SVG path string.

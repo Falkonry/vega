@@ -1,5 +1,5 @@
-import {Transform} from 'vega-dataflow';
-import {accessorName, inherits, toNumber} from 'vega-util';
+import {Transform} from 'falkonry-vega-dataflow';
+import {accessorName, inherits, toNumber} from 'falkonry-vega-util';
 
 /**
  * Computes extents (min/max) for a data field.

@@ -1,6 +1,6 @@
 import Parameters from './Parameters';
 import UniqueList from './util/UniqueList';
-import {array, error, id, isArray} from 'vega-util';
+import {array, error, id, isArray} from 'falkonry-vega-util';
 
 let OP_ID = 0;
 

@@ -1,5 +1,5 @@
 {
-  "name": "vega-view-transforms",
+  "name": "falkonry-vega-view-transforms",
   "version": "4.5.9",
   "description": "View-specific transforms for Vega dataflows.",
   "keywords": [
@@ -12,7 +12,7 @@
   "main": "build/vega-view-transforms.js",
   "module": "build/vega-view-transforms.module.js",
   "unpkg": "build/vega-view-transforms.min.js",
-  "repository": "vega/vega",
+  "repository": "Falkonry/vega",
   "scripts": {
     "prebuild": "rimraf build",
     "build": "rollup -c rollup.config.mjs --config-transform",
@@ -21,11 +21,11 @@
     "prepublishOnly": "yarn test && yarn build"
   },
   "dependencies": {
-    "vega-dataflow": "^5.7.5",
-    "vega-scenegraph": "^4.10.2",
-    "vega-util": "^1.17.1"
+    "falkonry-vega-dataflow": "^5.7.5",
+    "falkonry-vega-scenegraph": "^4.10.2",
+    "falkonry-vega-util": "^1.17.1"
   },
   "devDependencies": {
-    "vega-transforms": "*"
+    "falkonry-vega-transforms": "*"
   }
 }

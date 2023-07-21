@@ -1,5 +1,5 @@
-import {Transform, stableCompare} from 'vega-dataflow';
-import {error, inherits, one} from 'vega-util';
+import {Transform, stableCompare} from 'falkonry-vega-dataflow';
+import {error, inherits, one} from 'falkonry-vega-util';
 
 /**
  * Abstract class for tree layout.

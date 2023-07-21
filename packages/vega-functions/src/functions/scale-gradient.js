@@ -1,7 +1,7 @@
 import {getScale} from '../scales';
-import {scale as get, scaleFraction} from 'vega-scale';
-import {Gradient} from 'vega-scenegraph';
-import {identity, peek} from 'vega-util';
+import {scale as get, scaleFraction} from 'falkonry-vega-scale';
+import {Gradient} from 'falkonry-vega-scenegraph';
+import {identity, peek} from 'falkonry-vega-util';
 
 export default function(scale, p0, p1, count, group) {
   scale = getScale(scale, (group || this).context);

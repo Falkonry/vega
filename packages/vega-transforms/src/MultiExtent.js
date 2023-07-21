@@ -1,5 +1,5 @@
-import {Operator} from 'vega-dataflow';
-import {inherits} from 'vega-util';
+import {Operator} from 'falkonry-vega-dataflow';
+import {inherits} from 'falkonry-vega-util';
 
 /**
  * Computes global min/max extents over a collection of extents.

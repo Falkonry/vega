@@ -10,9 +10,9 @@ import {gridLayout, trellisLayout} from './layout/grid';
 import {legendLayout, legendParams} from './layout/legend';
 import {titleLayout} from './layout/title';
 
-import {Transform} from 'vega-dataflow';
-import {Bounds} from 'vega-scenegraph';
-import {inherits} from 'vega-util';
+import {Transform} from 'falkonry-vega-dataflow';
+import {Bounds} from 'falkonry-vega-scenegraph';
+import {inherits} from 'falkonry-vega-util';
 
 /**
  * Layout view elements such as axes and legends.

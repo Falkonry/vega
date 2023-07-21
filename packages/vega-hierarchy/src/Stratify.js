@@ -1,6 +1,6 @@
 import lookup from './lookup';
-import {Transform} from 'vega-dataflow';
-import {error, inherits, truthy} from 'vega-util';
+import {Transform} from 'falkonry-vega-dataflow';
+import {error, inherits, truthy} from 'falkonry-vega-util';
 import {stratify} from 'd3-hierarchy';
 
  /**

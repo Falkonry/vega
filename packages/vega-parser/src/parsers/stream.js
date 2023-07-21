@@ -1,6 +1,6 @@
 import {Scope, View} from '../util';
-import {parseExpression} from 'vega-functions';
-import {error, stringValue} from 'vega-util';
+import {parseExpression} from 'falkonry-vega-functions';
+import {error, stringValue} from 'falkonry-vega-util';
 
 const Timer = 'timer';
 

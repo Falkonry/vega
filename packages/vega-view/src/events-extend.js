@@ -1,6 +1,6 @@
 import {offset} from './render-size';
-import {constant, isString} from 'vega-util';
-import {point} from 'vega-scenegraph';
+import {constant, isString} from 'falkonry-vega-util';
+import {point} from 'falkonry-vega-scenegraph';
 
 /**
  * Extend an event with additional view-specific methods.

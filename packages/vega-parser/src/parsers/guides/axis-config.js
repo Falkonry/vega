@@ -1,7 +1,7 @@
 import {ifOrient, ifX} from './axis-util';
 import {Bottom, GuideLabelStyle, GuideTitleStyle, Top} from './constants';
 import {isSignal} from '../../util';
-import {extend, hasOwnProperty} from 'vega-util';
+import {extend, hasOwnProperty} from 'falkonry-vega-util';
 
 function fallback(prop, config, axisConfig, style) {
   let styleProp;

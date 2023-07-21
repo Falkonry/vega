@@ -12,7 +12,7 @@ import parseTransform from './transform';
 import parseTrigger from './trigger';
 import DataScope from '../DataScope';
 import {fieldRef, isSignal, ref} from '../util';
-import {error} from 'vega-util';
+import {error} from 'falkonry-vega-util';
 import {Bound, Collect, DataJoin, Encode, Mark, Overlap, Render, Sieve, SortItems, ViewLayout} from '../transforms';
 
 export default function(spec, scope) {

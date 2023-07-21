@@ -15,7 +15,7 @@ import {
   localDate, localDayOfYear, localFirst, localWeekNum,
   utcDate, utcDayOfYear, utcFirst, utcWeekNum
 } from './util';
-import {constant, one, peek, toSet, zero} from 'vega-util';
+import {constant, one, peek, toSet, zero} from 'falkonry-vega-util';
 
 function floor(units, step, get, inv, newDate) {
   const s = step || 1,

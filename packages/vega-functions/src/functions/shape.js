@@ -1,5 +1,5 @@
 import {getScale} from '../scales';
-import {pathParse, pathRender} from 'vega-scenegraph';
+import {pathParse, pathRender} from 'falkonry-vega-scenegraph';
 
 export function geoShape(projection, geojson, group) {
   const p = getScale(projection, (group || this).context);

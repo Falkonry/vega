@@ -1,6 +1,6 @@
 import Bounds from '../Bounds';
 import boundContext from './boundContext';
-import {isFunction} from 'vega-util';
+import {isFunction} from 'falkonry-vega-util';
 
 const clipBounds = new Bounds();
 

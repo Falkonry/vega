@@ -1,5 +1,5 @@
 {
-  "name": "vega-selections",
+  "name": "falkonry-vega-selections",
   "version": "5.4.1",
   "description": "Vega expression functions for Vega-Lite selections.",
   "keywords": [
@@ -12,7 +12,7 @@
   "main": "build/vega-selection.js",
   "module": "build/vega-selection.module.js",
   "unpkg": "build/vega-selection.min.js",
-  "repository": "vega/vega",
+  "repository": "Falkonry/vega",
   "scripts": {
     "prebuild": "rimraf build",
     "build": "rollup -c rollup.config.mjs",
@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "d3-array": "3.2.2",
-    "vega-expression": "^5.0.1",
-    "vega-util": "^1.17.1"
+    "falkonry-vega-expression": "^5.0.1",
+    "falkonry-vega-util": "^1.17.1"
   }
 }

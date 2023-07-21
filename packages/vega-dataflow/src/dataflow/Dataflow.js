@@ -9,9 +9,9 @@ import {pulse, touch, update} from './update';
 import changeset from '../ChangeSet';
 import Heap from '../util/Heap';
 import UniqueList from '../util/UniqueList';
-import {defaultLocale} from 'vega-format';
-import {loader} from 'vega-loader';
-import {Error, id, logger} from 'vega-util';
+import {defaultLocale} from 'falkonry-vega-format';
+import {loader} from 'falkonry-vega-loader';
+import {Error, id, logger} from 'falkonry-vega-util';
 
 /**
  * A dataflow graph for reactive processing of data streams.

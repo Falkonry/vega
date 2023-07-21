@@ -1,4 +1,4 @@
-import {hasOwnProperty} from 'vega-util';
+import {hasOwnProperty} from 'falkonry-vega-util';
 
 import {
   curveBasis,

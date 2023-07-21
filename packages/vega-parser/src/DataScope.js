@@ -1,6 +1,6 @@
 import {Aggregate, Collect} from './transforms';
 import {aggrField, entry, keyFieldRef, ref, sortKey} from './util';
-import {isString} from 'vega-util';
+import {isString} from 'falkonry-vega-util';
 
 export default function DataScope(scope, input, output, values, aggr) {
   this.scope = scope;   // parent scope object

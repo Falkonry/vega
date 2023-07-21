@@ -9,7 +9,7 @@ import {FrameRole} from './marks/roles';
 import {operator, ref, value} from '../util';
 import DataScope from '../DataScope';
 import {Bound, Collect, Encode, Render, Sieve, ViewLayout} from '../transforms';
-import {array, extend, hasOwnProperty} from 'vega-util';
+import {array, extend, hasOwnProperty} from 'falkonry-vega-util';
 
 const rootEncode = spec => extendEncode(
   {

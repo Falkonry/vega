@@ -1,5 +1,5 @@
 import Operator from './Operator';
-import {inherits} from 'vega-util';
+import {inherits} from 'falkonry-vega-util';
 
 /**
  * Abstract class for operators that process data tuples.

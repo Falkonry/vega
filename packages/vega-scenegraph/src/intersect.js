@@ -1,5 +1,5 @@
 import Marks from './marks/index';
-import {error} from 'vega-util';
+import {error} from 'falkonry-vega-util';
 import Bounds from './Bounds';
 
 export function intersect(scene, bounds, filter) {

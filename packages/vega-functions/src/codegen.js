@@ -2,11 +2,11 @@ import {
   codegenExpression,
   constants,
   functions
-} from 'vega-expression';
+} from 'falkonry-vega-expression';
 
 import {
   isTuple
-} from 'vega-dataflow';
+} from 'falkonry-vega-dataflow';
 
 import {
   selectionIdTest,
@@ -14,7 +14,7 @@ import {
   selectionTest,
   selectionTuples,
   selectionVisitor
-} from 'vega-selections';
+} from 'falkonry-vega-selections';
 
 import {
   cumulativeLogNormal,
@@ -30,7 +30,7 @@ import {
   sampleLogNormal,
   sampleNormal,
   sampleUniform
-} from 'vega-statistics';
+} from 'falkonry-vega-statistics';
 
 import {
   dayofyear,
@@ -42,7 +42,7 @@ import {
   utcdayofyear,
   utcweek,
   week
-} from 'vega-time';
+} from 'falkonry-vega-time';
 
 import {
   clampRange,
@@ -77,7 +77,7 @@ import {
   zoomLog,
   zoomPow,
   zoomSymlog
-} from 'vega-util';
+} from 'falkonry-vega-util';
 
 import {
   range as sequence

@@ -2,7 +2,7 @@ import parseTransform from './transform';
 import parseTrigger from './trigger';
 import {Collect, Load, Relay, Sieve} from '../transforms';
 import {hasSignal, isSignal, ref} from '../util';
-import {array} from 'vega-util';
+import {array} from 'falkonry-vega-util';
 
 export default function parseData(data, scope) {
   const transforms = [];

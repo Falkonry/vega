@@ -1,4 +1,4 @@
-import { AutoSizeType } from 'vega';
+import { AutoSizeType } from 'falkonry-vega';
 
 let autosize: AutoSizeType;
 

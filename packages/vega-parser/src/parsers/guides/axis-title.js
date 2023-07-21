@@ -5,7 +5,7 @@ import {alignExpr, anchorExpr, lookup} from './guide-util';
 import {addEncoders, encoder, has} from '../encode/util';
 import {TextMark} from '../marks/marktypes';
 import {AxisTitleRole} from '../marks/roles';
-import {extend} from 'vega-util';
+import {extend} from 'falkonry-vega-util';
 
 export default function(spec, config, userEncode, dataRef) {
   const _ = lookup(spec, config),

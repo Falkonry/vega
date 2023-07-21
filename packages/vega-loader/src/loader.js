@@ -1,4 +1,4 @@
-import {error, extend, isFunction, stringValue} from 'vega-util';
+import {error, extend, isFunction, stringValue} from 'falkonry-vega-util';
 
 // Matches absolute URLs with optional protocol
 //   https://...    file://...    //...

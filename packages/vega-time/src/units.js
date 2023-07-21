@@ -1,4 +1,4 @@
-import {array, error, extend, hasOwnProperty} from 'vega-util';
+import {array, error, extend, hasOwnProperty} from 'falkonry-vega-util';
 
 export const YEAR = 'year';
 export const QUARTER = 'quarter';

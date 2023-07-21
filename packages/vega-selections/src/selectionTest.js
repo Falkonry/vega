@@ -1,5 +1,5 @@
 import {bisector} from 'd3-array';
-import {inrange, isArray, isDate, toNumber} from 'vega-util';
+import {inrange, isArray, isDate, toNumber} from 'falkonry-vega-util';
 import {$selectionId, Intersect, getter} from './util';
 
 const TYPE_ENUM = 'E',

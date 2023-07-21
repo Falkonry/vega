@@ -1,7 +1,7 @@
 import parseDist from './util/Distributions';
-import {Transform, ingest} from 'vega-dataflow';
-import {sampleCurve} from 'vega-statistics';
-import {error, extent, inherits} from 'vega-util';
+import {Transform, ingest} from 'falkonry-vega-dataflow';
+import {sampleCurve} from 'falkonry-vega-statistics';
+import {error, extent, inherits} from 'falkonry-vega-util';
 
 /**
  * Grid sample points for a probability density. Given a distribution and

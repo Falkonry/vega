@@ -1,5 +1,5 @@
-import {Transform, ingest} from 'vega-dataflow';
-import {inherits, isArray} from 'vega-util';
+import {Transform, ingest} from 'falkonry-vega-dataflow';
+import {inherits, isArray} from 'falkonry-vega-util';
 import {transform} from './Isocontour';
 import {params} from './KDE2D';
 import contours from './util/contours';

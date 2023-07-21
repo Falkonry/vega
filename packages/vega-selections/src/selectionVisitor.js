@@ -1,5 +1,5 @@
-import {Literal} from 'vega-expression';
-import {error, hasOwnProperty, peek} from 'vega-util';
+import {Literal} from 'falkonry-vega-expression';
+import {error, hasOwnProperty, peek} from 'falkonry-vega-util';
 import {Intersect} from './util';
 
 const DataPrefix = ':',

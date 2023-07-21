@@ -1,5 +1,5 @@
 {
-  "name": "vega-functions",
+  "name": "falkonry-vega-functions",
   "version": "5.13.2",
   "description": "Custom functions for the Vega expression language.",
   "keywords": [
@@ -12,7 +12,7 @@
   "main": "build/vega-functions.js",
   "module": "build/vega-functions.module.js",
   "unpkg": "build/vega-functions.min.js",
-  "repository": "vega/vega",
+  "repository": "Falkonry/vega",
   "scripts": {
     "prebuild": "rimraf build",
     "build": "rollup -c rollup.config.mjs",
@@ -24,16 +24,16 @@
     "d3-array": "^3.2.2",
     "d3-color": "^3.1.0",
     "d3-geo": "^3.1.0",
-    "vega-dataflow": "^5.7.5",
-    "vega-expression": "^5.1.0",
-    "vega-scale": "^7.3.0",
-    "vega-scenegraph": "^4.10.2",
-    "vega-selections": "^5.4.1",
-    "vega-statistics": "^1.8.1",
-    "vega-time": "^2.1.1",
-    "vega-util": "^1.17.1"
+    "falkonry-vega-dataflow": "^5.7.5",
+    "falkonry-vega-expression": "^5.1.0",
+    "falkonry-vega-scale": "^7.3.0",
+    "falkonry-vega-scenegraph": "^4.10.2",
+    "falkonry-vega-selections": "^5.4.1",
+    "falkonry-vega-statistics": "^1.8.1",
+    "falkonry-vega-time": "^2.1.1",
+    "falkonry-vega-util": "^1.17.1"
   },
   "devDependencies": {
-    "vega-format": "^1.1.0"
+    "falkonry-vega-format": "^1.1.0"
   }
 }

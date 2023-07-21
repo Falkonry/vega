@@ -1,8 +1,8 @@
 import Bitmaps from './Bitmaps';
 import Dimension from './Dimension';
 import SortedIndex from './SortedIndex';
-import {Transform} from 'vega-dataflow';
-import {inherits} from 'vega-util';
+import {Transform} from 'falkonry-vega-dataflow';
+import {inherits} from 'falkonry-vega-util';
 
 /**
  * An indexed multi-dimensional filter.

@@ -1,6 +1,6 @@
 import element from './element';
 import {trackEventListener} from './events';
-import {debounce} from 'vega-util';
+import {debounce} from 'falkonry-vega-util';
 import {tickStep} from 'd3-array';
 
 const BindClass = 'vega-bind',
